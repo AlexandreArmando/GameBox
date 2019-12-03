@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="GameBox.GameIntrus"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GameBox"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50" MinWidth="15" MaxWidth="100"></ColumnDefinition>
+            <ColumnDefinition Width="300" MinWidth="150" MaxWidth="600"></ColumnDefinition>
+            <ColumnDefinition Width="50" MinWidth="15" MaxWidth="100"></ColumnDefinition>
+            <ColumnDefinition Width="300" MinWidth="150" MaxWidth="600"></ColumnDefinition>
+            <ColumnDefinition Width="50" MinWidth="15" MaxWidth="100"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" MinHeight="15"></RowDefinition>
+            <RowDefinition Height="100" MinHeight="50"></RowDefinition>
+            <RowDefinition Height="100" MinHeight="50"></RowDefinition>
+            <RowDefinition Height="50" MinHeight="15"></RowDefinition>
+            <RowDefinition Height="200" MinHeight="100"></RowDefinition>
+            <RowDefinition Height="50" MinHeight="15"></RowDefinition>
+            <RowDefinition Height="200" MinHeight="100"></RowDefinition>
+            <RowDefinition Height="50" MinHeight="15"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="welcome" Text="Bienvenue" FontSize="30" Grid.Row="0" Grid.Column="1"></TextBlock>
+        <TextBlock x:Name="playerName" Text="x" FontSize="30" FontWeight="Bold" Grid.Row="0" Grid.Column="3"></TextBlock>
+        <TextBlock Text="A toi de jouer :" FontSize="25"></TextBlock>
+        <TextBlock Text="Trouve l'intrus !" FontSize="25"></TextBlock>
+    </Grid>
+</Page>

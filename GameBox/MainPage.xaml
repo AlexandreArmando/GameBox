@@ -1,0 +1,55 @@
+﻿<Page
+    x:Class="GameBox.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GameBox"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" MinHeight="15"></RowDefinition>
+            <RowDefinition Height="200" MinHeight="50"></RowDefinition>
+            <RowDefinition Height="50" MinHeight="15"></RowDefinition>
+            <RowDefinition Height="100" MinHeight="100"></RowDefinition>
+            <RowDefinition Height="50" MinHeight="15"></RowDefinition>
+            <RowDefinition Height="100" MinHeight="100"></RowDefinition>
+            <RowDefinition Height="15" MinHeight="15"></RowDefinition>
+            <RowDefinition Height="100" MinHeight="100"></RowDefinition>
+            <RowDefinition Height="15" MinHeight="15"></RowDefinition>
+            <RowDefinition Height="100" MinHeight="100"></RowDefinition>
+            <RowDefinition Height="15" MinHeight="15"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="star" Width="10" Height="10" Text="*" FontSize="15" Foreground="White" Grid.Column="0" Grid.Row="0"/>
+        <TextBlock x:Name="star1" Width="15" Height="15" Text="*" FontSize="17" Foreground="White" Grid.Column="2" Grid.Row="2"/>
+        <TextBlock x:Name="star2" Width="10" Height="10" Text="*" FontSize="10" Foreground="WhiteSmoke" Grid.Column="0" Grid.Row="4"/>
+        <TextBlock x:Name="star3" Width="20" Height="20" Text="*" FontSize="20" Foreground="White" Grid.Column="2" Grid.Row="6"/>
+        <TextBlock x:Name="star4" Width="13" Height="13" Text="*" FontSize="13" Foreground="WhiteSmoke" Grid.Column="0" Grid.Row="8"/>
+        <Image x:Name="moon" Source="Assets\moon.png" Width="180" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right"/>
+        <Ellipse x:Name="mooon" Height="8" Width="12" Fill="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" Grid.Row="1"/>
+        <TextBlock Text="Bienvenue dans le coffre à jeux !" FontSize="30" FontWeight="Bold" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="WhiteSmoke"></TextBlock>
+        <TextBlock Text="Comment t'appelles tu ?" FontSize="30" FontWeight="Bold" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray" MaxWidth="600"></TextBlock>
+        <TextBox x:Name="playerName" FontSize="25" Foreground="Gray" Grid.Column="1" Grid.Row="3" Height="45" TextAlignment="Center" MaxWidth="600"></TextBox>
+        <Button x:Name="firstGameButton" Grid.Row="5" Grid.Column="1" MinWidth="300" Height="100" MaxWidth="600" Content="Trouver l'intrus" FontSize="25" HorizontalAlignment="Center" Background="Gray" Click="FirstGame"></Button>
+        <Button x:Name="secondGameButton" Grid.Row="7" Grid.Column="1" MinWidth="300" Height="100" MaxWidth="600" Content="Memory des lettres" FontSize="25" HorizontalAlignment="Center" Background="Gray" Click="SecondGame"></Button>
+        <RadioButton x:Name="sound" Content="SoundOn" IsChecked="true" Grid.Column="2" Grid.Row="8" VerticalAlignment="Center"></RadioButton>
+        <Grid.Resources>
+            <Storyboard x:Name="myStoryBoard">
+                <DoubleAnimation Storyboard.TargetName="star" Storyboard.TargetProperty="Opacity" From="1.0" To="0.0" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever"/>
+                <DoubleAnimation Storyboard.TargetName="star1" Storyboard.TargetProperty="Opacity" From="1.0" To="0.2" Duration="0:0:2" AutoReverse="True" RepeatBehavior="Forever"/>
+                <DoubleAnimation Storyboard.TargetName="star2" Storyboard.TargetProperty="Opacity" From="1.0" To="0.2" Duration="0:0:3" AutoReverse="True" RepeatBehavior="Forever"/>
+                <DoubleAnimation Storyboard.TargetName="star3" Storyboard.TargetProperty="Opacity" From="1.0" To="0.2" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever"/>
+                <DoubleAnimation Storyboard.TargetName="star4" Storyboard.TargetProperty="Opacity" From="1.0" To="0.2" Duration="0:0:3" AutoReverse="True" RepeatBehavior="Forever"/>
+                <DoubleAnimation Storyboard.TargetName="firstGameButton" Storyboard.TargetProperty="Opacity" From="1.0" To="0.8" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever"/>
+                <DoubleAnimation Storyboard.TargetName="secondGameButton" Storyboard.TargetProperty="Opacity" From="1.0" To="0.8" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever"/>
+            </Storyboard>
+        </Grid.Resources>
+    </Grid>
+</Page>
