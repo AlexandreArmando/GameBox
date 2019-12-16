@@ -20,6 +20,29 @@ namespace GameBox
     public sealed partial class MainPage : Page
     {
         private string pseudo = "";
+
+
+
+
+
+
+
+
+
+
+        // FAIRE SINGLETON
+
+
+
+
+
+
+
+
+
+
+
+
         public MainPage()
         {
             this.InitializeComponent();

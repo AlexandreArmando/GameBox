@@ -13,6 +13,7 @@ namespace GameBox.Classes
     {
         private List<Card> deck;
         private List<Card> cards;
+        private int level = 0;
 
         public Table()
         {
@@ -28,7 +29,10 @@ namespace GameBox.Classes
             }
             this.deck = ShuffleList<Card>(deck);
             
-            // pop cards in cards
+            if(level = 0)
+            {
+                cards.Add(deck.)
+            }
         }
 
         public List<Card> Deck
