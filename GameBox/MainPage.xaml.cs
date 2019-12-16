@@ -17,29 +17,54 @@ using Windows.UI.Xaml.Navigation;
 
 namespace GameBox
 {
-    /// <summary>
-    /// Une page vide peut être utilisée seule ou constituer une page de destination au sein d'un frame.
-    /// </summary>
     public sealed partial class MainPage : Page
     {
-        private string pseudo;
+        private string pseudo = "";
         public MainPage()
         {
             this.InitializeComponent();
             myStoryBoard.Begin();
         }
 
+        public void onNavigateTo()
+        {
+            playerName.Text = pseudo;
+        }
+
         public void FirstGame(object sender, RoutedEventArgs e)
         {
-            pseudo = playerName.Text;
-            Console.WriteLine(pseudo);
-            GameIntrus gameIntrus = new GameIntrus();
-            
+            if(playerName.Text != "")
+            {
+                pseudo = playerName.Text;
+                Console.WriteLine(pseudo);
+                if (Application.Current.Resources.ContainsKey("name"))
+                {
+                    Application.Current.Resources["name"] = pseudo;
+                }
+                else
+                {
+                    Application.Current.Resources.Add("name", this.playerName.Text);
+                }
+                Frame.Navigate(typeof(GameIntrus));
+            }
         }
         public void SecondGame(object sender, RoutedEventArgs e)
         {
-
+            if (playerName.Text != "")
+            {
+                pseudo = playerName.Text;
+                if (Application.Current.Resources.ContainsKey("name"))
+                {
+                    Application.Current.Resources["name"] = pseudo;
+                }
+                else
+                {
+                    Application.Current.Resources.Add("name", this.playerName.Text);
+                }
+                Frame.Navigate(typeof(GameMemory));
+            }
         }
+
     }
-    
+
 }

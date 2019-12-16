@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>0ba158c1-2a94-4ea6-8712-6e7c2270274a</PackageIdentityName>
     <PackageIdentityPublisher>CN=aa205651</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\aa205651\source\repos\GameBox\GameBox\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\aa205651\Documents\c#\GameBox\GameBox\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\aa205651\source\repos\GameBox\GameBox\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>33607BF6C6D1FCD35A94BEE6FDD0FFF0DA28CA1792A2A230B11B3CA1D760D515</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>0ba158c1-2a94-4ea6-8712-6e7c2270274a_1.0.0.0_x86__5jesep4q318s6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>0ba158c1-2a94-4ea6-8712-6e7c2270274a_5jesep4q318s6!App</RegisteredUserModeAppID>
@@ -27,114 +27,118 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\aa205651\source\repos\GameBox\GameBox\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-03T11:39:17.379</Modified>
+      <Modified>2019-12-16T15:25:15.409</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\bin\x86\Debug\GameBox.exe">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\GameBox.exe">
       <PackagePath>entrypoint\GameBox.exe</PackagePath>
-      <Modified>2019-12-03T11:39:16.797</Modified>
+      <Modified>2019-12-16T15:25:15.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2019-07-22T13:01:14.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\.nuget\packages\system.drawing.common\4.7.0\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2018-09-18T17:38:14.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Assets\A.png">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\A.png">
       <PackagePath>Assets\A.png</PackagePath>
       <Modified>2019-12-03T11:35:14.241</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Assets\B.png">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\B.png">
       <PackagePath>Assets\B.png</PackagePath>
       <Modified>2019-12-03T11:35:29.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Assets\C.png">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\C.png">
       <PackagePath>Assets\C.png</PackagePath>
       <Modified>2019-12-03T11:35:37.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Assets\card-back.png">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\card-back.png">
       <PackagePath>Assets\card-back.png</PackagePath>
       <Modified>2019-12-03T10:48:57.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Assets\moon.png">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\moon.png">
       <PackagePath>Assets\moon.png</PackagePath>
       <Modified>2019-12-03T08:55:59.636</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2019-11-25T06:58:43.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-11-25T06:58:43.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-11-25T06:58:43.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-11-25T06:58:43.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-11-25T06:58:43.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-11-25T06:58:43.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-11-25T06:58:43.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2019-11-26T06:58:24.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\bin\x86\Debug\GameBox.xr.xml">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\GameBox.xr.xml">
       <PackagePath>GameBox.xr.xml</PackagePath>
-      <Modified>2019-12-03T11:02:55.278</Modified>
+      <Modified>2019-12-16T07:18:07.811</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-03T11:02:55.302</Modified>
+      <Modified>2019-12-16T15:25:14.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\bin\x86\Debug\Pages\GameIntrus.xbf">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\Pages\GameIntrus.xbf">
       <PackagePath>Pages\GameIntrus.xbf</PackagePath>
-      <Modified>2019-12-03T11:02:55.303</Modified>
+      <Modified>2019-12-16T15:25:14.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\bin\x86\Debug\Pages\GameMemory.xbf">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\Pages\GameMemory.xbf">
       <PackagePath>Pages\GameMemory.xbf</PackagePath>
-      <Modified>2019-12-03T11:39:16.663</Modified>
+      <Modified>2019-12-16T15:25:14.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-03T11:39:16.663</Modified>
+      <Modified>2019-12-16T15:25:14.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-12-03T11:39:16.873</Modified>
+      <Modified>2019-12-16T14:39:26.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\source\repos\GameBox\GameBox\bin\x86\Debug\Core\GameBox.exe">
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\Core\GameBox.exe">
       <PackagePath>GameBox.exe</PackagePath>
-      <Modified>2019-12-03T11:39:17.375</Modified>
+      <Modified>2019-12-16T15:25:15.405</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

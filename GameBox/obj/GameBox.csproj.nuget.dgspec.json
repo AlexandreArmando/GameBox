@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aa205651\\source\\repos\\GameBox\\GameBox\\GameBox.csproj": {}
+    "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\GameBox.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aa205651\\source\\repos\\GameBox\\GameBox\\GameBox.csproj": {
+    "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\GameBox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aa205651\\source\\repos\\GameBox\\GameBox\\GameBox.csproj",
+        "projectUniqueName": "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\GameBox.csproj",
         "projectName": "GameBox",
-        "projectPath": "C:\\Users\\aa205651\\source\\repos\\GameBox\\GameBox\\GameBox.csproj",
+        "projectPath": "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\GameBox.csproj",
         "packagesPath": "C:\\Users\\aa205651\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aa205651\\source\\repos\\GameBox\\GameBox\\obj\\",
+        "outputPath": "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -40,6 +40,10 @@
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.9, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [

@@ -12,9 +12,9 @@ namespace GameBox
         private string content;
         private bool isHidden = true;
         private bool hasBeenLocated = false;
-        private Image img;
+        private string img;
 
-        public Card (string content, Image img)
+        public Card (string content, string img)
         {
             this.content = content;
             this.img = img;
@@ -34,6 +34,11 @@ namespace GameBox
         {
             get => this.hasBeenLocated;
             set => this.hasBeenLocated = value;
+        }
+        public string Img
+        {
+            get => this.img;
+            set => this.img = value;
         }
     }
 }

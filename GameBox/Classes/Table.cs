@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
+using System.Drawing;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
@@ -10,26 +11,46 @@ namespace GameBox.Classes
 {
     class Table
     {
-        private Card[] deck;
-        private Card[] cards;
-        private int level = 0;
+        private List<Card> deck;
+        private List<Card> cards;
 
         public Table()
         {
+            this.deck = new List<Card>();
             char character = 'A';
-            Image img = new Image();
-            for (int i =0; i<2; i++)
+            string path = "..\\Assets\\";
+            string ending = ".png";
+            for (int i =0; i<26; i++)
             {
-                BitmapImage bitmapImage = new BitmapImage();
-                img.Width = bitmapImage.DecodePixelWidth = 120; 
-                bitmapImage.UriSource = new Uri(img.BaseUri, "../Assets/"+character+".png");
-                img.Source = bitmapImage;
-                deck.Append(new Card(character.ToString(), img));
+                Card card = new Card(character.ToString(), path+character+ending);
                 character++;
+                this.deck.Add(card);
             }
-            // TODO create the complete deck
-            // Shuffle
+            this.deck = ShuffleList<Card>(deck);
+            
             // pop cards in cards
+        }
+
+        public List<Card> Deck
+        {
+            get => deck;
+            set => deck = value;
+        }
+
+        private List<Card> ShuffleList<Card>(List<Card> inputList)
+        {
+            List<Card> randomList = new List<Card>();
+
+            Random r = new Random();
+            int randomIndex = 0;
+            while (inputList.Count > 0)
+            {
+                randomIndex = r.Next(0, inputList.Count);
+                randomList.Add(inputList[randomIndex]); 
+                inputList.RemoveAt(randomIndex);
+            }
+
+            return randomList;
         }
     }
 }
