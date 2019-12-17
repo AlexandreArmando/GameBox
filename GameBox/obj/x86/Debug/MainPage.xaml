@@ -40,8 +40,9 @@
         <Button x:ConnectionId='10' x:Name="firstGameButton" Grid.Row="5" Grid.Column="1" MinWidth="300" Height="100" MaxWidth="600" Content="Trouver l'intrus" FontSize="25" HorizontalAlignment="Center" Background="Gray"                  ></Button>
         <Button x:ConnectionId='11' x:Name="secondGameButton" Grid.Row="7" Grid.Column="1" MinWidth="300" Height="100" MaxWidth="600" Content="Memory des lettres" FontSize="25" HorizontalAlignment="Center" Background="Gray"                   ></Button>
         <RadioButton x:ConnectionId='12' x:Name="sound" Content="SoundOn" IsChecked="true" Grid.Column="2" Grid.Row="8" VerticalAlignment="Center"></RadioButton>
+        <TextBlock x:ConnectionId='13' x:Name="test" Text="" FontSize="30" FontWeight="Bold" Grid.Row="9" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray" MaxWidth="600"></TextBlock>
         <Grid.Resources>
-            <Storyboard x:ConnectionId='13' x:Name="myStoryBoard">
+            <Storyboard x:ConnectionId='14' x:Name="myStoryBoard">
                 <DoubleAnimation Storyboard.TargetName="star" Storyboard.TargetProperty="Opacity" From="1.0" To="0.0" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever"/>
                 <DoubleAnimation Storyboard.TargetName="star1" Storyboard.TargetProperty="Opacity" From="1.0" To="0.2" Duration="0:0:2" AutoReverse="True" RepeatBehavior="Forever"/>
                 <DoubleAnimation Storyboard.TargetName="star2" Storyboard.TargetProperty="Opacity" From="1.0" To="0.2" Duration="0:0:3" AutoReverse="True" RepeatBehavior="Forever"/>

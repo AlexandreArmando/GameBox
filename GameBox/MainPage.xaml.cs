@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GameBox.Classes;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -19,55 +20,24 @@ namespace GameBox
 {
     public sealed partial class MainPage : Page
     {
-        private string pseudo = "";
-
-
-
-
-
-
-
-
-
-
-        // FAIRE SINGLETON
-
-
-
-
-
-
-
-
-
-
-
+        private Player player;
 
         public MainPage()
         {
             this.InitializeComponent();
+            if(Player.Instance != null)
+            {
+                playerName.Text = Player.Instance.name;
+            }
+            player = Player.Instance;
             myStoryBoard.Begin();
-        }
-
-        public void onNavigateTo()
-        {
-            playerName.Text = pseudo;
         }
 
         public void FirstGame(object sender, RoutedEventArgs e)
         {
             if(playerName.Text != "")
             {
-                pseudo = playerName.Text;
-                Console.WriteLine(pseudo);
-                if (Application.Current.Resources.ContainsKey("name"))
-                {
-                    Application.Current.Resources["name"] = pseudo;
-                }
-                else
-                {
-                    Application.Current.Resources.Add("name", this.playerName.Text);
-                }
+                player.name = playerName.Text;
                 Frame.Navigate(typeof(GameIntrus));
             }
         }
@@ -75,15 +45,7 @@ namespace GameBox
         {
             if (playerName.Text != "")
             {
-                pseudo = playerName.Text;
-                if (Application.Current.Resources.ContainsKey("name"))
-                {
-                    Application.Current.Resources["name"] = pseudo;
-                }
-                else
-                {
-                    Application.Current.Resources.Add("name", this.playerName.Text);
-                }
+                player.name = playerName.Text;
                 Frame.Navigate(typeof(GameMemory));
             }
         }

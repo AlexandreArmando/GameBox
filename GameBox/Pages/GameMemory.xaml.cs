@@ -15,25 +15,45 @@ namespace GameBox
     public sealed partial class GameMemory : Page
     {
         private Table table;
-        private string playerName = "";
+        private Player player;
         public GameMemory()
         {
             this.InitializeComponent();
             this.table = new Table();
+            this.player = Player.Instance;
+            playerNameLabel.Text = player.name;
         }
 
         public void cardClicked(object sender, RoutedEventArgs e)
         {
-            /*Image img = (Image)FindName(((Image)sender).Name);
-            Uri path = new Uri("../Assets/" + table.Deck[short.Parse(((Image)sender).Name.Substring(((Image)sender).Name.Length - 1, 1))].Content + ".png");
-            img.Source = new BitmapImage(path);*/
-        }
+            string img = ((Image)sender).Name;
+            if (table.Cards[int.Parse(img.Substring(4, 1))].IsHidden == true)
+            {
+                switch (table.NbCardVisible)
+                {
+                    case 0:
+                        ((Image)sender).Source = new BitmapImage(new Uri(table.Cards[int.Parse(img.Substring(4, 1))].Img));
+                        table.Cards[int.Parse(img.Substring(4, 1))].IsHidden = false;
+                        table.NbCardVisible++;
+                        break;
+                    case 1:
+                        ((Image)sender).Source = new BitmapImage(new Uri(table.Cards[int.Parse(img.Substring(4, 1))].Img));
+                        table.Cards[int.Parse(img.Substring(4, 1))].IsHidden = false;
+                        table.NbCardVisible++;
+                        //here
+                        break;
 
-        public void onNavigateTo()
-        {
-            playerName = (string)Application.Current.Resources["name"];
-            playerNameLabel.Text = playerName;
-            test.Text = (string)Application.Current.Resources["name"];
+                }
+            }
+            
+            if (table.Cards[int.Parse(img.Substring(4, 1))].IsHidden == true && this.table.NbCardVisible < 2)
+            {
+                ((Image)sender).Source = new BitmapImage(new Uri(table.Cards[int.Parse(img.Substring(4, 1))].Img));
+                table.Cards[int.Parse(img.Substring(4, 1))].IsHidden = false;
+                table.NbCardVisible++;
+            }
+            
+            
         }
 
         public void Back_Click(object sender, RoutedEventArgs e)

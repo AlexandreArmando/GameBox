@@ -28,12 +28,12 @@
         </Grid.RowDefinitions>
         <Button x:Name="backButton" Content="Back" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Click="Back_Click"/>
         <TextBlock x:Name="level" Text="Level :" HorizontalAlignment="Center" Grid.Column="5" Grid.Row="0" VerticalAlignment="Center"/>
-        <TextBlock x:Name="player" Text="Player :" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="0" VerticalAlignment="Center"/>
+        <TextBlock x:Name="playerLabel" Text="Player :" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="0" VerticalAlignment="Center"/>
         <TextBlock x:Name="playerNameLabel" Text="" HorizontalAlignment="Center" Grid.Column="3" Grid.Row="0" VerticalAlignment="Center"/>
         <Image x:Name="card0" Source="..\Assets\card-back.png" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="2" MinHeight="50" MinWidth="50" Margin="20" Tapped="cardClicked"/>
         <Image x:Name="card1" Source="..\Assets\card-back.png" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="3" MinHeight="50" MinWidth="50" Margin="20" Tapped="cardClicked"/>
         <Image x:Name="card2" Source="..\Assets\card-back.png" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="2" MinHeight="50" MinWidth="50" Margin="20" Tapped="cardClicked"/>
-        <Image x:Name="card3" Source="..\Assets\card-back.png" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="3" MinHeight="50" MinWidth="50" Margin="20" Tapped="cardClicked" AccessKey="8"/>
+        <Image x:Name="card3" Source="..\Assets\card-back.png" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="3" MinHeight="50" MinWidth="50" Margin="20" Tapped="cardClicked"/>
         <TextBox x:Name="test" Grid.Column="1" Grid.Row="1"></TextBox>
     </Grid>
 </Page>

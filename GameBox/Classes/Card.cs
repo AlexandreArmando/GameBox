@@ -14,6 +14,14 @@ namespace GameBox
         private bool hasBeenLocated = false;
         private string img;
 
+        public Card(Card card)
+        {
+            this.content = card.content;
+            this.isHidden = card.isHidden;
+            this.hasBeenLocated = card.hasBeenLocated;
+            this.img = card.img;
+        }
+
         public Card (string content, string img)
         {
             this.content = content;

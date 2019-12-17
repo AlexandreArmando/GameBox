@@ -49,8 +49,77 @@
     <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\card-back.png">
       <PackagePath>Assets\card-back.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\D.png">
+      <PackagePath>Assets\D.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\E.png">
+      <PackagePath>Assets\E.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\F.png">
+      <PackagePath>Assets\F.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\G.png">
+      <PackagePath>Assets\G.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\H.png">
+      <PackagePath>Assets\H.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\I.png">
+      <PackagePath>Assets\I.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\J.png">
+      <PackagePath>Assets\J.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\K.png">
+      <PackagePath>Assets\K.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\L.png">
+      <PackagePath>Assets\L.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\M.png">
+      <PackagePath>Assets\M.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\moon.png">
       <PackagePath>Assets\moon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\N.png">
+      <PackagePath>Assets\N.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\O.png">
+      <PackagePath>Assets\O.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\P.png">
+      <PackagePath>Assets\P.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Q.png">
+      <PackagePath>Assets\Q.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\R.png">
+      <PackagePath>Assets\R.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\S.png">
+      <PackagePath>Assets\S.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\T.png">
+      <PackagePath>Assets\T.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\U.png">
+      <PackagePath>Assets\U.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\V.png">
+      <PackagePath>Assets\V.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\W.png">
+      <PackagePath>Assets\W.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\X.png">
+      <PackagePath>Assets\X.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Y.png">
+      <PackagePath>Assets\Y.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Z.png">
+      <PackagePath>Assets\Z.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

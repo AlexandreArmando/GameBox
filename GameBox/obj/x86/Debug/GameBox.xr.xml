@@ -56,7 +56,6 @@
       <RootProperty Name="MinHeight" />
       <RootProperty Name="MinWidth" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="AccessKey" />
       <RootProperty Name="Width" />
       <RootEvent Name="Tapped" />
     </RootType>

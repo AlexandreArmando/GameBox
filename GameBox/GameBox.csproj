@@ -120,6 +120,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Classes\Card.cs" />
+    <Compile Include="Classes\Player.cs" />
     <Compile Include="Classes\Table.cs" />
     <Compile Include="Pages\GameIntrus.xaml.cs">
       <DependentUpon>GameIntrus.xaml</DependentUpon>
@@ -142,7 +143,30 @@
     <Content Include="Assets\B.png" />
     <Content Include="Assets\C.png" />
     <Content Include="Assets\card-back.png" />
+    <Content Include="Assets\D.png" />
+    <Content Include="Assets\E.png" />
+    <Content Include="Assets\F.png" />
+    <Content Include="Assets\G.png" />
+    <Content Include="Assets\H.png" />
+    <Content Include="Assets\I.png" />
+    <Content Include="Assets\J.png" />
+    <Content Include="Assets\K.png" />
+    <Content Include="Assets\L.png" />
+    <Content Include="Assets\M.png" />
     <Content Include="Assets\moon.png" />
+    <Content Include="Assets\N.png" />
+    <Content Include="Assets\O.png" />
+    <Content Include="Assets\P.png" />
+    <Content Include="Assets\Q.png" />
+    <Content Include="Assets\R.png" />
+    <Content Include="Assets\S.png" />
+    <Content Include="Assets\T.png" />
+    <Content Include="Assets\U.png" />
+    <Content Include="Assets\V.png" />
+    <Content Include="Assets\W.png" />
+    <Content Include="Assets\X.png" />
+    <Content Include="Assets\Y.png" />
+    <Content Include="Assets\Z.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

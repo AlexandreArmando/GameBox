@@ -14,25 +14,34 @@ namespace GameBox.Classes
         private List<Card> deck;
         private List<Card> cards;
         private int level = 0;
+        private int nbCardVisible = 0;
 
         public Table()
         {
             this.deck = new List<Card>();
+            this.cards = new List<Card>();
             char character = 'A';
-            string path = "..\\Assets\\";
-            string ending = ".png";
+          
             for (int i =0; i<26; i++)
             {
-                Card card = new Card(character.ToString(), path+character+ending);
+                Card card = new Card(character.ToString(), "ms-appx:///Assets/"+character+".png");
                 character++;
                 this.deck.Add(card);
             }
             this.deck = ShuffleList<Card>(deck);
-            
-            if(level = 0)
+            if(level < 13)
             {
-                cards.Add(deck.)
+                Random r = new Random();
+                int randomIndex = 0;
+                for (int i = 0; i < (level + 2); i++)
+                {
+                    randomIndex = r.Next(0, deck.Count);
+                    cards.Add(new Card(deck[randomIndex]));
+                    cards.Add(new Card(deck[randomIndex]));
+                }
             }
+            this.cards = ShuffleList<Card>(cards);
+
         }
 
         public List<Card> Deck
@@ -40,6 +49,13 @@ namespace GameBox.Classes
             get => deck;
             set => deck = value;
         }
+
+        public List<Card> Cards
+        {
+            get => cards;
+            set => cards = value;
+        }
+        public int NbCardVisible { get => nbCardVisible; set => nbCardVisible = value; }
 
         private List<Card> ShuffleList<Card>(List<Card> inputList)
         {
