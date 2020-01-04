@@ -1,61 +1,36 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Drawing;
-using System.Text;
-using System.Threading.Tasks;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Media.Imaging;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace GameBox.Classes
 {
     class Table
     {
-        private List<Card> deck;
-        private List<Card> cards;
-        private int level = 0;
-        private int nbCardVisible = 0;
+        private List<Level> levels;       
 
         public Table()
         {
-            this.deck = new List<Card>();
-            this.cards = new List<Card>();
-            char character = 'A';
-          
-            for (int i =0; i<26; i++)
-            {
-                Card card = new Card(character.ToString(), "ms-appx:///Assets/"+character+".png");
-                character++;
-                this.deck.Add(card);
-            }
-            this.deck = ShuffleList<Card>(deck);
-            if(level < 13)
-            {
-                Random r = new Random();
-                int randomIndex = 0;
-                for (int i = 0; i < (level + 2); i++)
-                {
-                    randomIndex = r.Next(0, deck.Count);
-                    cards.Add(new Card(deck[randomIndex]));
-                    cards.Add(new Card(deck[randomIndex]));
-                }
-            }
-            this.cards = ShuffleList<Card>(cards);
+            this.levels = new List<Level>();
+            loadJson();
 
         }
 
-        public List<Card> Deck
+        // Load and deserialize levels from JSON file in the Assets folder
+        public void loadJson()
         {
-            get => deck;
-            set => deck = value;
+            using (StreamReader r = File.OpenText("Assets/levels.json"))
+            {
+                string json = r.ReadToEnd();
+                this.levels = JsonConvert.DeserializeObject<List<Level>>(json);
+            }
         }
 
-        public List<Card> Cards
+        public List<Level> Levels
         {
-            get => cards;
-            set => cards = value;
+            get => levels;
+            set => levels = value;
         }
-        public int NbCardVisible { get => nbCardVisible; set => nbCardVisible = value; }
 
         private List<Card> ShuffleList<Card>(List<Card> inputList)
         {

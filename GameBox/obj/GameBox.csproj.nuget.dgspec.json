@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\GameBox.csproj": {}
+    "C:\\Users\\Alexa\\Documents\\Projets\\C#\\GameBox\\GameBox\\GameBox.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\GameBox.csproj": {
+    "C:\\Users\\Alexa\\Documents\\Projets\\C#\\GameBox\\GameBox\\GameBox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\GameBox.csproj",
+        "projectUniqueName": "C:\\Users\\Alexa\\Documents\\Projets\\C#\\GameBox\\GameBox\\GameBox.csproj",
         "projectName": "GameBox",
-        "projectPath": "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\GameBox.csproj",
-        "packagesPath": "C:\\Users\\aa205651\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\obj\\",
+        "projectPath": "C:\\Users\\Alexa\\Documents\\Projets\\C#\\GameBox\\GameBox\\GameBox.csproj",
+        "packagesPath": "C:\\Users\\Alexa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexa\\Documents\\Projets\\C#\\GameBox\\GameBox\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aa205651\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,9 +37,17 @@
       "frameworks": {
         "uap10.0.17763": {
           "dependencies": {
+            "EcoCore": {
+              "target": "Package",
+              "version": "[7.0.0.11806, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             },
             "System.Drawing.Common": {
               "target": "Package",

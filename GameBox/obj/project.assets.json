@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.17763": {
+      "EcoCore/7.0.0.11806": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        },
+        "runtime": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -218,6 +231,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -318,6 +340,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
+      "EcoCore/7.0.0.11806": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        },
+        "runtime": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -533,6 +568,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -813,6 +857,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm-aot": {
+      "EcoCore/7.0.0.11806": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        },
+        "runtime": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -1028,6 +1085,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.9": {
@@ -1309,6 +1375,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
+      "EcoCore/7.0.0.11806": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        },
+        "runtime": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -1524,6 +1603,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -1805,6 +1893,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
+      "EcoCore/7.0.0.11806": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        },
+        "runtime": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -2020,6 +2121,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -2300,6 +2410,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64-aot": {
+      "EcoCore/7.0.0.11806": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        },
+        "runtime": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -2515,6 +2638,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -2796,6 +2928,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
+      "EcoCore/7.0.0.11806": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        },
+        "runtime": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -3011,6 +3156,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -3291,6 +3445,19 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86-aot": {
+      "EcoCore/7.0.0.11806": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        },
+        "runtime": {
+          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
+          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -3506,6 +3673,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -3788,6 +3964,32 @@
     }
   },
   "libraries": {
+    "EcoCore/7.0.0.11806": {
+      "sha512": "BT8lG97rdSbctao0hQfvFlDKxNFkGwQfWYcyDo8dvEeHkeiDlneeu2Gs8ikfgoduBkHq1SDKkeYRX63g2/aFsg==",
+      "type": "package",
+      "path": "ecocore/7.0.0.11806",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EcoCore.nuspec.org",
+        "ecocore.7.0.0.11806.nupkg.sha512",
+        "ecocore.nuspec",
+        "lib/Unity-Full-v35/Eco.Handles.MonoDevelop.dll",
+        "lib/Unity-Full-v35/Eco.Interfaces.MonoDevelop.dll",
+        "lib/Unity-Full-v35/Eco.LinqExtender.MonoDevelop.dll",
+        "lib/net40/Eco.Handles.dll",
+        "lib/net40/Eco.Interfaces.dll",
+        "lib/net40/Eco.LinqExtender.dll",
+        "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll",
+        "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll",
+        "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll",
+        "lib/sl5/Eco.Handles.SL.dll",
+        "lib/sl5/Eco.Interfaces.SL.dll",
+        "lib/sl5/Eco.Linq.SL.dll",
+        "lib/sl5/Eco.Silverlight.SL.dll",
+        "lib/sl5/WECPOFLogicSL.dll"
+      ]
+    },
     "Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
       "sha512": "o+Op8dwxI29v3F2RwgPI5z9r1LAOn8HxAbgmgRi2mppC7KEDgkhv9GvsWM3E7bdYTam0GT7IPM4Nww/wVBiS8A==",
       "type": "package",
@@ -4296,6 +4498,37 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.9": {
@@ -8258,29 +8491,31 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
+      "EcoCore >= 7.0.0.11806",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9",
+      "Newtonsoft.Json >= 12.0.3",
       "System.Drawing.Common >= 4.7.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aa205651\\.nuget\\packages\\": {},
+    "C:\\Users\\Alexa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\GameBox.csproj",
+      "projectUniqueName": "C:\\Users\\Alexa\\Documents\\Projets\\C#\\GameBox\\GameBox\\GameBox.csproj",
       "projectName": "GameBox",
-      "projectPath": "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\GameBox.csproj",
-      "packagesPath": "C:\\Users\\aa205651\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aa205651\\Documents\\c#\\GameBox\\GameBox\\obj\\",
+      "projectPath": "C:\\Users\\Alexa\\Documents\\Projets\\C#\\GameBox\\GameBox\\GameBox.csproj",
+      "packagesPath": "C:\\Users\\Alexa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alexa\\Documents\\Projets\\C#\\GameBox\\GameBox\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\aa205651\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8299,9 +8534,17 @@
     "frameworks": {
       "uap10.0.17763": {
         "dependencies": {
+          "EcoCore": {
+            "target": "Package",
+            "version": "[7.0.0.11806, )"
+          },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.9, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
           },
           "System.Drawing.Common": {
             "target": "Package",

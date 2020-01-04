@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sSiteLicense" xml:space="preserve">
+    <value>Site License</value>
+  </data>
+  <data name="sPropertyExpression" xml:space="preserve">
+    <value>OCL Expression used to populate the handle.</value>
+  </data>
+  <data name="sRootContextNotSet" xml:space="preserve">
+    <value>The owner's context is not set</value>
+  </data>
+  <data name="sListContainsNullLocator" xml:space="preserve">
+    <value>List Containes null locator</value>
+  </data>
+  <data name="sTypeMismatchInHandle" xml:space="preserve">
+    <value>Type mismatch in handle, Element type [{0}], static type is [{1}]</value>
+  </data>
+  <data name="sPropertyMemberVisibility" xml:space="preserve">
+    <value>Filter exposed members based on their visibility.</value>
+  </data>
+  <data name="sCategoryBinding" xml:space="preserve">
+    <value>ECO|DataBinding</value>
+  </data>
+  <data name="sPropertyAddDefaultNestings" xml:space="preserve">
+    <value>Add default nestings.</value>
+  </data>
+  <data name="sPropertyFilterMode" xml:space="preserve">
+    <value>Filter Mode</value>
+  </data>
+  <data name="sPropertyFileName" xml:space="preserve">
+    <value>The file used to persist data.</value>
+  </data>
+  <data name="sOclPSHandleUnableToFindService" xml:space="preserve">
+    <value>Unable to find an IOclPsService</value>
+  </data>
+  <data name="sListIsReadOnly" xml:space="preserve">
+    <value>List is read only</value>
+  </data>
+  <data name="sPropertyCacheData" xml:space="preserve">
+    <value>If true, the file is cached through the session.</value>
+  </data>
+  <data name="sObjectIsTransient" xml:space="preserve">
+    <value>Object is transient</value>
+  </data>
+  <data name="LicenseStatus" xml:space="preserve">
+    <value>License status</value>
+  </data>
+  <data name="sHelpSetFilename" xml:space="preserve">
+    <value>Specify the filename containing the XML-data</value>
+  </data>
+  <data name="sPropertyNullElementRepresentation" xml:space="preserve">
+    <value>Representation for null row.</value>
+  </data>
+  <data name="InvalidAssociatedType" xml:space="preserve">
+    <value>Invalid type of associated object in {0}.{1}: {2}. Not a subtype of {3}</value>
+  </data>
+  <data name="sInconsistentUmlRtModel" xml:space="preserve">
+    <value>Inconsistent UmlRT Model</value>
+  </data>
+  <data name="DeserializationError" xml:space="preserve">
+    <value>Deserialization error: {0}</value>
+  </data>
+  <data name="ClassLimitReached" xml:space="preserve">
+    <value>An application built with unlicensed MDriven Framework will not handle more than {0} classes.</value>
+  </data>
+  <data name="sFreeVersion" xml:space="preserve">
+    <value>Free version, max {0} classes</value>
+  </data>
+  <data name="sPersistenceHandleIsActive" xml:space="preserve">
+    <value>PersistenceHandle is active</value>
+  </data>
+  <data name="sWrongIDEShort" xml:space="preserve">
+    <value>Wrong ECO license</value>
+  </data>
+  <data name="UnknownAssociatedType" xml:space="preserve">
+    <value>Unknown type of associated object in {0}.{1}: {2}</value>
+  </data>
+  <data name="sPropertyFilter" xml:space="preserve">
+    <value>Filter expression</value>
+  </data>
+  <data name="sPropertyDefaultLinkFetchStrategy" xml:space="preserve">
+    <value>Controls how to load relations by default</value>
+  </data>
+  <data name="sCategoryPresentation" xml:space="preserve">
+    <value>ECO|Presentation</value>
+  </data>
+  <data name="sCategoryDerivation" xml:space="preserve">
+    <value>ECO|Derivation</value>
+  </data>
+  <data name="sPropertyNesting" xml:space="preserve">
+    <value>Name of nesting to use if Property is Nested.</value>
+  </data>
+  <data name="sCantInstansiateAbstract" xml:space="preserve">
+    <value>Can't instantiate abstract class {0}</value>
+  </data>
+  <data name="sPropertyAddExternalId" xml:space="preserve">
+    <value>Add column for external ID.</value>
+  </data>
+  <data name="DeserializationEndOfStream" xml:space="preserve">
+    <value>Deserialization error: Stream position at end already</value>
+  </data>
+  <data name="sWrongIDE" xml:space="preserve">
+    <value>Your ECO license is not valid for this IDE! ECO will run with limitations.</value>
+  </data>
+  <data name="sCannotSetLinkObjectReference" xml:space="preserve">
+    <value>Cannot set a link object reference directly</value>
+  </data>
+  <data name="sCategoryNesting" xml:space="preserve">
+    <value>ECO|Nesting</value>
+  </data>
+  <data name="sIncompatibleAssignment" xml:space="preserve">
+    <value>Tried to assign a value to {0}.{1} that is not compatible with the model (was: {2}, expected {3})</value>
+  </data>
+  <data name="sObjectNotFoundInFile" xml:space="preserve">
+    <value>Object not found in file</value>
+  </data>
+  <data name="sPropertyVariableName" xml:space="preserve">
+    <value>Name of the variable as used in expression.</value>
+  </data>
+  <data name="sVariableRoot" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="sPropertyNested" xml:space="preserve">
+    <value>Property is Nested.</value>
+  </data>
+  <data name="sNoObjectsInParameter" xml:space="preserve">
+    <value>No objects in parameter;</value>
+  </data>
+  <data name="sCannotSetOrderNo_NotAReference" xml:space="preserve">
+    <value>Cannot set order number. Member is not an object reference</value>
+  </data>
+  <data name="sPropertyOffset" xml:space="preserve">
+    <value>The offset in the query result set from where to start returning objects</value>
+  </data>
+  <data name="sUnsupportedCondition" xml:space="preserve">
+    <value>This persistencemapper does not support conditions of type {0}</value>
+  </data>
+  <data name="UnknownLink" xml:space="preserve">
+    <value>Unknown link {0}.{1}</value>
+  </data>
+  <data name="sPropertyMaxAnswers" xml:space="preserve">
+    <value>The maximum number of objects to be returned by the query</value>
+  </data>
+  <data name="sNotATypeSystemProvider" xml:space="preserve">
+    <value>{0} is not ITypeSystemProvider.</value>
+  </data>
+  <data name="sTypeSystemProblems" xml:space="preserve">
+    <value>type system problems...</value>
+  </data>
+  <data name="ComponentCategoryHandles" xml:space="preserve">
+    <value>ECO|Handles</value>
+  </data>
+  <data name="sNoPersistenceControllerAvailable" xml:space="preserve">
+    <value>EcoSpace has no PersistenceMapper</value>
+  </data>
+  <data name="sPropertySyncHandler" xml:space="preserve">
+    <value>Specify a SyncHandler component if Sync is to be active</value>
+  </data>
+  <data name="sPropertyAllowNew" xml:space="preserve">
+    <value>Allow New</value>
+  </data>
+  <data name="RecursivelyDerivedMember" xml:space="preserve">
+    <value>Member {0}.{1} is recursively derived</value>
+  </data>
+  <data name="sCannotSetOrderNumOnUnassignedLink" xml:space="preserve">
+    <value>Cannot set the order number when the link is not assigned</value>
+  </data>
+  <data name="FailedCodederivedMember" xml:space="preserve">
+    <value>Failed to derive member {0}.{1} using method {2}. Original message: {3}</value>
+  </data>
+  <data name="sCategoryConnections" xml:space="preserve">
+    <value>ECO|Connections</value>
+  </data>
+  <data name="PropertyEnforceStringLength" xml:space="preserve">
+    <value>If true, string attributes can not exceed the maximum length specified in the model</value>
+  </data>
+  <data name="sClassNotVersioned" xml:space="preserve">
+    <value>Class {0} is not versioned;</value>
+  </data>
+  <data name="DeserializationIncompatibleVersions" xml:space="preserve">
+    <value>Deserialization error: Stream contains incompatible version (was: {0} expected {1})</value>
+  </data>
+  <data name="sWrongPMapperReturned" xml:space="preserve">
+    <value>Wrong persistence mapper returned</value>
+  </data>
+  <data name="sPropertyRootHandle" xml:space="preserve">
+    <value>Handle supplying uplink value.</value>
+  </data>
+  <data name="sCannotLinkLinkedSingleLink" xml:space="preserve">
+    <value>Cannot link this single link. It is already assigned.</value>
+  </data>
+  <data name="sExpiredShort" xml:space="preserve">
+    <value>Trial license expired</value>
+  </data>
+  <data name="sObjectNotDestroyable" xml:space="preserve">
+    <value>Object is not destroyable. It is either modified or existing</value>
+  </data>
+  <data name="sClassHasNoModelId" xml:space="preserve">
+    <value>Class "{0}" has no model id</value>
+  </data>
+  <data name="UnableToHandleAttribute" xml:space="preserve">
+    <value>Unable to correctly serialize/deserialize attribute {0}.{1} of type {2} ("{3}" &lt;&gt; "{4}")</value>
+  </data>
+  <data name="UnknownClass" xml:space="preserve">
+    <value>Unknown class {0}</value>
+  </data>
+  <data name="sHandleHasNoEcoSpaceTypeName" xml:space="preserve">
+    <value>Handle has no EcoSpaceTypeName</value>
+  </data>
+  <data name="sInvalidName" xml:space="preserve">
+    <value>Invalid name: {0}</value>
+  </data>
+  <data name="sCannotLinkAssignedSingleLink" xml:space="preserve">
+    <value>Cannot link this single link. It is already assigned.</value>
+  </data>
+  <data name="sFailedToLoadXmlFile" xml:space="preserve">
+    <value>Failed to load xml file {0}: {1}</value>
+  </data>
+  <data name="sLicenseHasExpired" xml:space="preserve">
+    <value>Your ECO trial license has expired! ECO will run with limitations.</value>
+  </data>
+  <data name="sCategoryPersistence" xml:space="preserve">
+    <value>ECO|Persistence</value>
+  </data>
+  <data name="sGetTypeSystemServiceMissing" xml:space="preserve">
+    <value>{0} lacks GetTypeSystemService method.</value>
+  </data>
+  <data name="sPropertyUpdateWholeObjects" xml:space="preserve">
+    <value>Enables updating entire objects.</value>
+  </data>
+  <data name="UnknownAutoincKey" xml:space="preserve">
+    <value>Unknown autoinc key</value>
+  </data>
+  <data name="TriedToAddNullToMultilink" xml:space="preserve">
+    <value>Tried to add null to multilink {0}.{1}</value>
+  </data>
+  <data name="sPropertyAsExternalId" xml:space="preserve">
+    <value>Represent ECO object as ExternalId</value>
+  </data>
+  <data name="UnknownAttribute" xml:space="preserve">
+    <value>Unknown attribute {0}.{1}</value>
+  </data>
+  <data name="sPropertyColumnName" xml:space="preserve">
+    <value>Name of the property to add to the binding list.</value>
+  </data>
+  <data name="HandleHasNoPropertyNamedSo" xml:space="preserve">
+    <value>The handle has no property called {0}</value>
+  </data>
+  <data name="sObjectIsDirtyOrTransient" xml:space="preserve">
+    <value>Object is dirty or transient</value>
+  </data>
+  <data name="ComponentCategoryPersistence" xml:space="preserve">
+    <value>ECO|Persistence</value>
+  </data>
+  <data name="sInternalIDFromOtherEcoSpace" xml:space="preserve">
+    <value>Internal id from other EcoSpace instance</value>
+  </data>
+  <data name="sDescriptorIsNotAProperty" xml:space="preserve">
+    <value>Descriptor is not a property of object.</value>
+  </data>
+  <data name="DeserializationIncompatibleModels" xml:space="preserve">
+    <value>Deserialization error: Stream contains incompatible model (checksum: {0} expected {1})</value>
+  </data>
+  <data name="UnknownTypeName" xml:space="preserve">
+    <value>StaticValueTypeName {0} is not a known type</value>
+  </data>
+  <data name="sPropertyReverseDeriveValue" xml:space="preserve">
+    <value>For reverse deriving columns with code.</value>
+  </data>
+  <data name="sCacheContentMismatch" xml:space="preserve">
+    <value>Cache contents do not match</value>
+  </data>
+  <data name="ComponentCategoryDroopyEyes" xml:space="preserve">
+    <value>DroopyEyes</value>
+  </data>
+  <data name="sDeactivatingWithDirtyObjects" xml:space="preserve">
+    <value>Deactivating system with dirty objects.</value>
+  </data>
+  <data name="sPropertyElementHandle" xml:space="preserve">
+    <value>Handle supplying the value of the variable.</value>
+  </data>
+  <data name="sPropertyStaticValueTypeName" xml:space="preserve">
+    <value>Static type for handle.</value>
+  </data>
+  <data name="sPropertyDerivationExpression" xml:space="preserve">
+    <value>OCL expression for deriving property.</value>
+  </data>
+  <data name="sCantAccessVersionInfoWithoutAPersistenceMapper" xml:space="preserve">
+    <value>Can't access version-info on a transient system</value>
+  </data>
+  <data name="sOwnerNotSet" xml:space="preserve">
+    <value>Owner not set</value>
+  </data>
+  <data name="sStaticTypeNotMatching" xml:space="preserve">
+    <value>Attempt to set handle to type {0} when static type is {1}</value>
+  </data>
+  <data name="sNullRowMode" xml:space="preserve">
+    <value>Conditonally add row for null object.</value>
+  </data>
+  <data name="sHandleHasNoStaticValueTypeName" xml:space="preserve">
+    <value>Handle has no StaticValueTypeName</value>
+  </data>
+  <data name="sPropertyInitialValues" xml:space="preserve">
+    <value>Initial value for the element of the handle</value>
+  </data>
+  <data name="sPropertyOclVariableCollection" xml:space="preserve">
+    <value>Collection of the variables defined.</value>
+  </data>
+  <data name="sFileWrittenSinceLastAccess" xml:space="preserve">
+    <value>File has been written to since it was last accessed</value>
+  </data>
+  <data name="sElementBelongsToAnotherEcoSpace" xml:space="preserve">
+    <value>Element belongs to another EcoSpace</value>
+  </data>
+  <data name="sPropertyAddSelfColumn" xml:space="preserve">
+    <value>Add a column refering to the element.</value>
+  </data>
+  <data name="sOclPSHandleNotConnected" xml:space="preserve">
+    <value>The handle is not connected to a root handle</value>
+  </data>
+  <data name="sCategoryTypes" xml:space="preserve">
+    <value>ECO|Types</value>
+  </data>
+  <data name="sEcoSpaceNotSet" xml:space="preserve">
+    <value>EcoSpace not set</value>
+  </data>
+  <data name="sNotConnected" xml:space="preserve">
+    <value>Not Connected</value>
+  </data>
+  <data name="sPropertyTypeName" xml:space="preserve">
+    <value>Type of the derived property.</value>
+  </data>
+  <data name="sNoRuntimeLicense" xml:space="preserve">
+    <value>No ECO runtime license found. Make sure your project includes a licenses.licx file.</value>
+  </data>
+  <data name="sPropertyEnabled" xml:space="preserve">
+    <value>Determines if component is serving values to connected components.</value>
+  </data>
+  <data name="sPropertyAddDefaultProperties" xml:space="preserve">
+    <value>Add the default columns.</value>
+  </data>
+  <data name="sNoLicense" xml:space="preserve">
+    <value>No license for MDriven Framework found!</value>
+  </data>
+  <data name="sXmlFileFilter" xml:space="preserve">
+    <value>XML-files (*.xml)|*.xml|All files (*.*)|*.*</value>
+  </data>
+  <data name="ObjectWithNoId" xml:space="preserve">
+    <value>Object with no id: {0}</value>
+  </data>
+  <data name="sCantUpdateTransientObject" xml:space="preserve">
+    <value>Can't update transient object</value>
+  </data>
+  <data name="sCannotSetAssociationEndDirectly" xml:space="preserve">
+    <value>Cannot set this association end directly</value>
+  </data>
+  <data name="sPropertyIsReadOnly" xml:space="preserve">
+    <value>Property is readonly.</value>
+  </data>
+  <data name="sExpired" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="sNotLicensed" xml:space="preserve">
+    <value>Not licensed</value>
+  </data>
+  <data name="DeserializationNoEcoSpace" xml:space="preserve">
+    <value>Deserialization error: Stream does not contain a serialized ecospace</value>
+  </data>
+  <data name="sPropertyEcoSpaceTypeName" xml:space="preserve">
+    <value>The type of the EcoSpace that defines the type system to use in design time.</value>
+  </data>
+  <data name="sPropertyNestings" xml:space="preserve">
+    <value>Nestings.</value>
+  </data>
+  <data name="sLicensedForDifferentIDE" xml:space="preserve">
+    <value>Licensed, but for a different IDE</value>
+  </data>
+  <data name="sNameNotUnique" xml:space="preserve">
+    <value>Not unique name: {0}</value>
+  </data>
+  <data name="sSingleUserLicense" xml:space="preserve">
+    <value>Single developer license</value>
+  </data>
+  <data name="TriedToInsertNullIntoMultilink" xml:space="preserve">
+    <value>Tried to insert null into multilink {0}.{1}</value>
+  </data>
+  <data name="sCategoryOCL" xml:space="preserve">
+    <value>ECO|OCL</value>
+  </data>
+  <data name="sNoMemberWithName" xml:space="preserve">
+    <value>No member named {0};</value>
+  </data>
+  <data name="sPropertyDeriveValue" xml:space="preserve">
+    <value>For deriving columns with code.</value>
+  </data>
+  <data name="sPropertyPersistenceMapper" xml:space="preserve">
+    <value>Component managing EcoSpace's persistence.</value>
+  </data>
+  <data name="sCategoryBehaviour" xml:space="preserve">
+    <value>ECO|Behaviour</value>
+  </data>
+  <data name="ParameterRowIsOutOfRange" xml:space="preserve">
+    <value>Parameter 'row' is out of range. Value was {0}, list contains {1} row(s).</value>
+  </data>
+  <data name="sDeserializingActive" xml:space="preserve">
+    <value>Deserializing to an active EcoSpace.</value>
+  </data>
+  <data name="sTrialLicense" xml:space="preserve">
+    <value>Trial license, expires in {0} days</value>
+  </data>
+  <data name="sUnableToResolveEcoSpaceTypeName" xml:space="preserve">
+    <value>Unable to resolve EcoSpaceTypeName {0}</value>
+  </data>
+  <data name="sPropertyOptimisticLocking" xml:space="preserve">
+    <value>Enabled optimistic locking.</value>
+  </data>
+  <data name="sSyncNotActive" xml:space="preserve">
+    <value>Sync not active</value>
+  </data>
+  <data name="sPropertyVariables" xml:space="preserve">
+    <value>OCL variables to be known by handle.</value>
+  </data>
+  <data name="CantChangePMapperOnActiveSystem" xml:space="preserve">
+    <value>Changing PersistenceMapper on an active system is not allowed</value>
+  </data>
+  <data name="XmlDocumentContainsNoDatablock" xml:space="preserve">
+    <value>XmlDocument does not contain a datablock</value>
+  </data>
+  <data name="sClassIsAbstract" xml:space="preserve">
+    <value>Class "{0}" is abstract</value>
+  </data>
+  <data name="sPropertyAddRootVariables" xml:space="preserve">
+    <value>Add variables from RootHandle to own variables.</value>
+  </data>
+  <data name="sForeignObjectsInUpdateDatabase" xml:space="preserve">
+    <value>UpdateDatabase called with object that does not belong to the same EcoSpace</value>
+  </data>
+  <data name="FilenameNotSet" xml:space="preserve">
+    <value>{0}.{1} does not specify a filename.</value>
+  </data>
+  <data name="DeserializationStreamEmpty" xml:space="preserve">
+    <value>Deserialization error: Stream empty</value>
+  </data>
+  <data name="sCircularReference" xml:space="preserve">
+    <value>Circular reference.</value>
+  </data>
+  <data name="sMemberIsDerived" xml:space="preserve">
+    <value>Member is derived</value>
+  </data>
+  <data name="sSpecifyXmlFile" xml:space="preserve">
+    <value>Specify file to use for data storage</value>
+  </data>
+  <data name="sFileIsInconsistent" xml:space="preserve">
+    <value>File is inconsistent</value>
+  </data>
+  <data name="sCannotSetValueOfNonembeddedLinkInCache" xml:space="preserve">
+    <value>Cannot set value of non-embedded link in cache</value>
+  </data>
+  <data name="sMultiLinksNotModifiableInICache" xml:space="preserve">
+    <value>Multi-end links are not modifiable in ICache</value>
+  </data>
+  <data name="sSupportsSyncIsNotEnabled" xml:space="preserve">
+    <value>Either your PersistenceMapper does not support synchronization, or it is currently disabled</value>
+  </data>
+  <data name="sPropertySupportSorting" xml:space="preserve">
+    <value>Support Sorting</value>
+  </data>
+  <data name="s4pack" xml:space="preserve">
+    <value>Licensed for 4 developers</value>
+  </data>
+  <data name="s8pack" xml:space="preserve">
+    <value>Licensed for 8 developers</value>
+  </data>
+  <data name="sInvalidClassId" xml:space="preserve">
+    <value>Invalid Class id: {0}</value>
+  </data>
+  <data name="HandleNotEnabled" xml:space="preserve">
+    <value>Handle is not enabled</value>
+  </data>
+  <data name="sPreconditionsNotAllowed" xml:space="preserve">
+    <value>Preconditions not allowed for this mapper</value>
+  </data>
+  <data name="sHandleHasNoEcoSpace" xml:space="preserve">
+    <value>Handle has no EcoSpace</value>
+  </data>
+  <data name="sPropertyColumns" xml:space="preserve">
+    <value>Columns surfaced by this handle.</value>
+  </data>
+  <data name="sTypeOfValueUnknown" xml:space="preserve">
+    <value>value is not of a known type.</value>
+  </data>
+  <data name="PropertyAllowDeactivateDirty" xml:space="preserve">
+    <value>Allow deactivation of ecospace with dirty objects in memory</value>
+  </data>
+</root>

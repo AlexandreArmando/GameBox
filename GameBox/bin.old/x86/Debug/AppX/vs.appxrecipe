@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-HI581B1</Machine>
+    <WindowsUser>Alexa</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>0ba158c1-2a94-4ea6-8712-6e7c2270274a</PackageIdentityName>
+    <PackageIdentityPublisher>CN=aa205651</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>D4E5257F626194BD003DFF0B1924965E711A8C9D9755151119FB4563BBA84539</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0ba158c1-2a94-4ea6-8712-6e7c2270274a_1.0.0.0_x86__5jesep4q318s6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0ba158c1-2a94-4ea6-8712-6e7c2270274a_5jesep4q318s6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0ba158c1-2a94-4ea6-8712-6e7c2270274a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=aa205651</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-04T11:48:45.592</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\GameBox.exe">
+      <PackagePath>entrypoint\GameBox.exe</PackagePath>
+      <Modified>2020-01-04T11:48:44.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\.nuget\packages\ecocore\7.0.0.11806\lib\portable-windows8+net45\Eco.Handles.PortableCL.dll">
+      <PackagePath>Eco.Handles.PortableCL.dll</PackagePath>
+      <Modified>2020-01-04T03:57:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\.nuget\packages\ecocore\7.0.0.11806\lib\portable-windows8+net45\Eco.Interfaces.PortableCL.dll">
+      <PackagePath>Eco.Interfaces.PortableCL.dll</PackagePath>
+      <Modified>2020-01-04T03:57:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\.nuget\packages\ecocore\7.0.0.11806\lib\portable-windows8+net45\Eco.Linq.PortableCL.dll">
+      <PackagePath>Eco.Linq.PortableCL.dll</PackagePath>
+      <Modified>2020-01-04T03:57:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-11-08T23:56:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T13:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\.nuget\packages\system.drawing.common\4.7.0\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2018-09-18T17:38:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T17:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\A.png">
+      <PackagePath>Assets\A.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\B.png">
+      <PackagePath>Assets\B.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\C.png">
+      <PackagePath>Assets\C.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\card-back.png">
+      <PackagePath>Assets\card-back.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\D.png">
+      <PackagePath>Assets\D.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\E.png">
+      <PackagePath>Assets\E.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\F.png">
+      <PackagePath>Assets\F.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\G.png">
+      <PackagePath>Assets\G.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\H.png">
+      <PackagePath>Assets\H.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\I.png">
+      <PackagePath>Assets\I.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\J.png">
+      <PackagePath>Assets\J.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\K.png">
+      <PackagePath>Assets\K.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\L.png">
+      <PackagePath>Assets\L.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\M.png">
+      <PackagePath>Assets\M.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\moon.png">
+      <PackagePath>Assets\moon.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\N.png">
+      <PackagePath>Assets\N.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\O.png">
+      <PackagePath>Assets\O.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\P.png">
+      <PackagePath>Assets\P.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Q.png">
+      <PackagePath>Assets\Q.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\R.png">
+      <PackagePath>Assets\R.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\S.png">
+      <PackagePath>Assets\S.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\T.png">
+      <PackagePath>Assets\T.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\U.png">
+      <PackagePath>Assets\U.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\V.png">
+      <PackagePath>Assets\V.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\W.png">
+      <PackagePath>Assets\W.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\X.png">
+      <PackagePath>Assets\X.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Y.png">
+      <PackagePath>Assets\Y.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Z.png">
+      <PackagePath>Assets\Z.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-01-02T20:23:28.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-02T20:23:28.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-02T20:23:28.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-02T20:23:28.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-02T20:23:28.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-02T20:23:28.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-02T20:23:28.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-01-02T20:23:30.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\GameBox.xr.xml">
+      <PackagePath>GameBox.xr.xml</PackagePath>
+      <Modified>2020-01-04T11:41:19.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-01-04T11:48:44.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\Pages\GameIntrus.xbf">
+      <PackagePath>Pages\GameIntrus.xbf</PackagePath>
+      <Modified>2020-01-04T11:48:44.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\Pages\GameMemory.xbf">
+      <PackagePath>Pages\GameMemory.xbf</PackagePath>
+      <Modified>2020-01-04T11:48:44.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2020-01-04T11:48:44.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T16:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-01-04T11:48:44.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\Core\GameBox.exe">
+      <PackagePath>GameBox.exe</PackagePath>
+      <Modified>2020-01-04T11:48:45.579</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

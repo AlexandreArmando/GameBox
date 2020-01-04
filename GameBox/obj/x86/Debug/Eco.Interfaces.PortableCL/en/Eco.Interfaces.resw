@@ -1,0 +1,951 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sUnknownTableInAlias" xml:space="preserve">
+    <value>Unknown table {0} in alias {1}.{2}</value>
+  </data>
+  <data name="sInvalidInitialValue" xml:space="preserve">
+    <value>Attribute {0}.{1} has an invalid initial value: {2}</value>
+  </data>
+  <data name="sDiscriminatorDefSignatureEmpty" xml:space="preserve">
+    <value>Discriminator definition {0}.{1} has an empty signature</value>
+  </data>
+  <data name="sAssociationEndRefersToUnknownAssociation" xml:space="preserve">
+    <value>AssociationEnd {0}.{1} refers to an association ({2}) that is unknown</value>
+  </data>
+  <data name="sAutoMandatoryConstraintDesc" xml:space="preserve">
+    <value>Role {0} must not be empty</value>
+  </data>
+  <data name="sBothEndsEmbedded" xml:space="preserve">
+    <value>Both ends of association {0} are single and embedded ({1}.{2} and {3}.{4})</value>
+  </data>
+  <data name="sInheritedStateMachinesMustHaveUniqueNames" xml:space="preserve">
+    <value>Inherited statemachines must have unique region names ({0}.{1})</value>
+  </data>
+  <data name="sMappingIsNotSingleColumn" xml:space="preserve">
+    <value>The mapping defined for "{0}" ({1}) does not implement ISingleColumnAttributemapping</value>
+  </data>
+  <data name="sFeatureHasInvalidAlias" xml:space="preserve">
+    <value>Feature definition {0}.{1} refers to an invalid alias {2}</value>
+  </data>
+  <data name="sNoMethodInfoFound" xml:space="preserve">
+    <value>Unable to find a MethodInfo for {0}.{1}</value>
+  </data>
+  <data name="sDerivedAssociationWithLinkClass" xml:space="preserve">
+    <value>Association {0} is derived and has an association class ({1}))</value>
+  </data>
+  <data name="sPropertyKeyMapperTypeName" xml:space="preserve">
+    <value>Name of key mapper (FQN, ie; Eco.Persistence.AttributeKeyMapper).</value>
+  </data>
+  <data name="sTriggerlessTransitionsFormLoopFromState" xml:space="preserve">
+    <value>Invalid loop of triggerless transitions from state {0} back to itself</value>
+  </data>
+  <data name="sClassDefinedInMultipleConfigs" xml:space="preserve">
+    <value>O/R mapping for class {0} is defined in multiple configurations</value>
+  </data>
+  <data name="sTriggersNotAllowedFromInitialState" xml:space="preserve">
+    <value>Triggers not allowed on transition from initial state {0}:{1}</value>
+  </data>
+  <data name="sTypeNotAnEcoClass" xml:space="preserve">
+    <value>Type {0} is not an EcoClass</value>
+  </data>
+  <data name="sPropertySystemTablePrefix" xml:space="preserve">
+    <value>Prefix prepended to ECO system tables.</value>
+  </data>
+  <data name="sNoMappingForPersistentClass" xml:space="preserve">
+    <value>No mapping defined for persistent class {0}</value>
+  </data>
+  <data name="sArgumentNotICollection" xml:space="preserve">
+    <value>Argument is not ICollection</value>
+  </data>
+  <data name="sSqlScriptCommentStop" xml:space="preserve">
+    <value>Token that ends a comment in a Sql script.</value>
+  </data>
+  <data name="sPropertyNull" xml:space="preserve">
+    <value>{0} null</value>
+  </data>
+  <data name="sMultipleDiscriminatorValuesForClass" xml:space="preserve">
+    <value>Discriminator value for discriminator "{0}" is defined in both {1} and {2}</value>
+  </data>
+  <data name="sNoFileNameForXmlMappingFile" xml:space="preserve">
+    <value>No file name specified for XML OR-Mapping file</value>
+  </data>
+  <data name="sSingleLinkKeyRefersToUndefinedKey" xml:space="preserve">
+    <value>Key in single link definition {0}.{1} refers to a key ({2}) in class {3}, but such a key is not defined</value>
+  </data>
+  <data name="sPropertyUseTimestamp" xml:space="preserve">
+    <value>Add timestamp column to XFiles table.</value>
+  </data>
+  <data name="sPropertySupportsDefaultColumnValues" xml:space="preserve">
+    <value>Indicates if the backends supports default values on columns.</value>
+  </data>
+  <data name="sDuplicateFeatureDefinitionsInClass" xml:space="preserve">
+    <value>The feature {0} in class {1} is defined multiple times</value>
+  </data>
+  <data name="sMemberNameCollision" xml:space="preserve">
+    <value>Member name {0}.{1} collides with a member of a superclass</value>
+  </data>
+  <data name="sSingleLinkKeyColumnCountDiffers" xml:space="preserve">
+    <value>Single link definition {0}.{1} does not have the same number of columns as key {2}.{3}</value>
+  </data>
+  <data name="sConnectionNotOpen" xml:space="preserve">
+    <value>Connection not open</value>
+  </data>
+  <data name="UnknownKeyType" xml:space="preserve">
+    <value>Unknown KeyType: {0}</value>
+  </data>
+  <data name="sCannotCompareNullValues" xml:space="preserve">
+    <value>Cannot compare if either is null.</value>
+  </data>
+  <data name="sClassNotInIncludedPackage" xml:space="preserve">
+    <value>Referred class {0} is not in an Eco package included in the EcoSpace {1}</value>
+  </data>
+  <data name="sSingleLinkDefinedButNotInModel" xml:space="preserve">
+    <value>{0}.{1} is defined as a single link, but it is not an association end in the model</value>
+  </data>
+  <data name="sInitializationError" xml:space="preserve">
+    <value>Unable to activate system. Initialization errors in StaticSystemTypeInfo:{0}{1}</value>
+  </data>
+  <data name="sReservedWords" xml:space="preserve">
+    <value>A list of reserved words that should be avoided when generating table and column names.</value>
+  </data>
+  <data name="sOtherEndOfOrderedMultiLinkHasNoOrderColumn" xml:space="preserve">
+    <value>The single link end ({0}.{1}) of an ordered association {2} lacks an OrderColumn</value>
+  </data>
+  <data name="sDoesNotConform" xml:space="preserve">
+    <value>{0} does not conform to {1}</value>
+  </data>
+  <data name="sUnknownColumnNameInDiscriminatorColumn" xml:space="preserve">
+    <value>Unknown DiscriminatorColumn name ({0}) in alias {1}.{2}</value>
+  </data>
+  <data name="sMustBeACollectionType" xml:space="preserve">
+    <value>Must be a Collection(IObject) type</value>
+  </data>
+  <data name="sInvalidSuperClassReference" xml:space="preserve">
+    <value>Invalid super class reference in class {0} (refers to {1})</value>
+  </data>
+  <data name="sConflictingLoopbackIndexes" xml:space="preserve">
+    <value>Members have conflicting loopback indexes: {0} and {1} on class {2} (index {3})</value>
+  </data>
+  <data name="sErrorInitializingStateMachine" xml:space="preserve">
+    <value>Error initializing state machine for class {0}</value>
+  </data>
+  <data name="sPropertyPersistenceMappers" xml:space="preserve">
+    <value>Definitions for the persistence mappers to be used.</value>
+  </data>
+  <data name="sInvalidMapping_DuplicateAutoIncKeyImpl" xml:space="preserve">
+    <value>The key definition {0} for class {1} has multiple autoinc key implementations (in alias {2} and {3})</value>
+  </data>
+  <data name="sInvalidAssociation" xml:space="preserve">
+    <value>Invalid association: {0}.{1} does not point to a class</value>
+  </data>
+  <data name="sFeatureHasNoName" xml:space="preserve">
+    <value>Feature definition in class {0} does not have a name</value>
+  </data>
+  <data name="sMissingValueForDiscriminatorValue" xml:space="preserve">
+    <value>DiscriminatorValue {0} for class {1} does not specify a value</value>
+  </data>
+  <data name="sClassAlreadyBelongsToPackage" xml:space="preserve">
+    <value>Class {0} already belongs to Package {1}</value>
+  </data>
+  <data name="sInvalidMapping_AliasDefinesNoKeys" xml:space="preserve">
+    <value>The alias "{0}" defined in class {1}, does not implement any keys</value>
+  </data>
+  <data name="sUnableToFindMapperForAttribute" xml:space="preserve">
+    <value>Unable to find a mapper for attribute {0}.{1}, PMapper: "{2}", Type: {3}, please update your SqlDatabaseConfig.PersistenceMappers.</value>
+  </data>
+  <data name="sAttributeDefinedButNotInModel" xml:space="preserve">
+    <value>{0}.{1} is defined as an attribute, but it is not an attribute in the model</value>
+  </data>
+  <data name="sNameNotDefined" xml:space="preserve">
+    <value>Name {0} is not defined.</value>
+  </data>
+  <data name="sAmbiguousTransitionsForTrigger" xml:space="preserve">
+    <value>State {0} has ambiguous transitions for trigger {1}, guards "{2}", "{3}" both valid</value>
+  </data>
+  <data name="sArgumentIsNotA" xml:space="preserve">
+    <value>Argument is not a {0}</value>
+  </data>
+  <data name="sPropertyDropColumnTemplate" xml:space="preserve">
+    <value>SQL template for dropping column.</value>
+  </data>
+  <data name="sSourceIsNotAVertex" xml:space="preserve">
+    <value>Source: {0}{1} is not the the name of a vertex in the State Machine</value>
+  </data>
+  <data name="sPropertyDropTableTemplate" xml:space="preserve">
+    <value>SQL template for dropping a table.</value>
+  </data>
+  <data name="sSqlScriptTerminator" xml:space="preserve">
+    <value>Token that terminates a command in a Sql script (will be placed at the end of commands).</value>
+  </data>
+  <data name="sLeftSideMustBeProperty" xml:space="preserve">
+    <value>Left hand side must be a property</value>
+  </data>
+  <data name="sMapperDefinitionHasNoName" xml:space="preserve">
+    <value>There is an entry in the PersistenceMapper collection that has no name (check PersistenceMapper.SqlDatabaseConfig.PersistenceMappers)</value>
+  </data>
+  <data name="sPropertyBooleanTrueLiteral" xml:space="preserve">
+    <value>The value representing a true boolean value during SQL comparison</value>
+  </data>
+  <data name="sAssociationEndAlreadySet" xml:space="preserve">
+    <value>{0}[{1}] already set</value>
+  </data>
+  <data name="sNoClassDefinitionsInDocument" xml:space="preserve">
+    <value>Could not find any class definitions in XML document</value>
+  </data>
+  <data name="sLinkInherits" xml:space="preserve">
+    <value>AssociationClass {0} inherits from one of its ends</value>
+  </data>
+  <data name="sBooleanValueMustBe" xml:space="preserve">
+    <value>Boolean tagged value is "{0}" must be "{1}" or "{2}"</value>
+  </data>
+  <data name="sCannotApplyWithUndecidedAction" xml:space="preserve">
+    <value>Cannot apply a change with an undecided action</value>
+  </data>
+  <data name="sUnknownClassifierType" xml:space="preserve">
+    <value>unknown classifier type</value>
+  </data>
+  <data name="sWarning" xml:space="preserve">
+    <value>WARNING:</value>
+  </data>
+  <data name="sUnableToFindSingleColumnMapping" xml:space="preserve">
+    <value>Unable to find a mapping for "{0}", please check your SqlDatabaseConfig.</value>
+  </data>
+  <data name="sMultipleParametersSameName" xml:space="preserve">
+    <value>Method {0} contains multiple parameters named {1}</value>
+  </data>
+  <data name="sMissingDiscriminatorValuesForClass" xml:space="preserve">
+    <value>There is no discriminator value defined for discriminator "{0}" in class {1}. Most common reason is that you forgot to evolve the database.</value>
+  </data>
+  <data name="sOwnedElementWithNoUmlElementAttribute" xml:space="preserve">
+    <value>Package {0} contains a class ({1}) that doesnt have the [UmlElement] attribute</value>
+  </data>
+  <data name="sMultipleClassesSameName" xml:space="preserve">
+    <value>System contains multiple classes named {0}</value>
+  </data>
+  <data name="sLengthFunctionName" xml:space="preserve">
+    <value>In most databases, this should be "Length", in Sql Server, this should be "LEN"</value>
+  </data>
+  <data name="sKeyRefersToNonExistingKey" xml:space="preserve">
+    <value>Key implementation {0}.{1}.{2} refers to a non-existing key definition</value>
+  </data>
+  <data name="sMultipleClassFeaturesSameName" xml:space="preserve">
+    <value>Class {0} contains multiple features named {1}</value>
+  </data>
+  <data name="sUnknownClassifier" xml:space="preserve">
+    <value>Model has no class called {0}</value>
+  </data>
+  <data name="sNotActive" xml:space="preserve">
+    <value>{0} not Active. Please activate the EcoSpace.</value>
+  </data>
+  <data name="sAssociationOnlyHasOneNonnavigableEnd" xml:space="preserve">
+    <value>Association {0} has only one nonnavigable end (and no navigable ends)</value>
+  </data>
+  <data name="sRegionHasMultipleInitialStates" xml:space="preserve">
+    <value>Region "{0}" has more than one initial state</value>
+  </data>
+  <data name="sObjectRefIsNull" xml:space="preserve">
+    <value>Object reference is null</value>
+  </data>
+  <data name="sCategorySQLTweaks" xml:space="preserve">
+    <value>ECO|SQL Tweaks</value>
+  </data>
+  <data name="sAliasDoesNotSpecifyTable" xml:space="preserve">
+    <value>Alias {0}.{1} does not specify a table</value>
+  </data>
+  <data name="sNameAmbiguous" xml:space="preserve">
+    <value>Name {0} is ambiguous, can be any of {1}</value>
+  </data>
+  <data name="sInternalIdEncountered" xml:space="preserve">
+    <value>Internal error. NewIdFromAttributes found an internal id.</value>
+  </data>
+  <data name="MapperDoesntImplementInterfaces" xml:space="preserve">
+    <value>"{0}" doesn't implement neither {1} nor {2}</value>
+  </data>
+  <data name="sInvalidLoopbackIndex" xml:space="preserve">
+    <value>Property {0}.{1} has in invalid loopback index {2}. Class {0} has only {3} known properties.</value>
+  </data>
+  <data name="sAssociationNotMarkedWithAttribute" xml:space="preserve">
+    <value>AssociationEnd {0} lacks association attribute</value>
+  </data>
+  <data name="sInvalidSyntaxForKeyInSingleLink" xml:space="preserve">
+    <value>Invalid syntax in key reference for single link {0}.{1}. Key references should be &lt;class&gt;.&lt;key&gt;</value>
+  </data>
+  <data name="sAutoIncNotSupportingVersionedDBs" xml:space="preserve">
+    <value>AutoInc Id does not support versioned databases...</value>
+  </data>
+  <data name="sUnknownElementInClass" xml:space="preserve">
+    <value>Unknown XML element ({0}) in class definition (class: {1})</value>
+  </data>
+  <data name="sUnknownElementInAlias" xml:space="preserve">
+    <value>Unknown XML element ({0}) in alias definition (alias: {1}.{2})</value>
+  </data>
+  <data name="sNoElementType" xml:space="preserve">
+    <value>&lt;no elementType&gt;</value>
+  </data>
+  <data name="sMapperDefinitionHasNoMapper" xml:space="preserve">
+    <value>The persistence mapper definition for {0} has no type defined (check PersistenceMapper.SqlDatabaseConfig.PersistenceMappers)</value>
+  </data>
+  <data name="sDuplicateAliasInClass" xml:space="preserve">
+    <value>Duplicate alias definitions ({0}) in class {1}</value>
+  </data>
+  <data name="sUnknownElementInTable" xml:space="preserve">
+    <value>Unknown XML element ({0}) in table definition (table: {1})</value>
+  </data>
+  <data name="sPropertyUpdateIsolationLevel" xml:space="preserve">
+    <value>Defines transaction level used in updates.</value>
+  </data>
+  <data name="sInvalidIntegerTVValue" xml:space="preserve">
+    <value>Integer tagged value is "{0}" must be a valid integer</value>
+  </data>
+  <data name="sKeyImplementationHasUndefinedDiscriminatorColumn" xml:space="preserve">
+    <value>Key implementation {0}.{1}.{2} references a discriminator column ({3}) that is not defined by a discriminator implementation</value>
+  </data>
+  <data name="sPropertySQLForAllowNull" xml:space="preserve">
+    <value>SQL template for specifying that an attribute allows NULL</value>
+  </data>
+  <data name="sCannotSetElementToValue" xml:space="preserve">
+    <value>Can't set element of type {0} to value {1}</value>
+  </data>
+  <data name="sMultipleVertextesSameName" xml:space="preserve">
+    <value>Region{0} has multiple vertexes named {1}</value>
+  </data>
+  <data name="sNoUnguardedExitStateFromRegionToFinal" xml:space="preserve">
+    <value>Region "{0}" has Final state but owning state {1} lacks unguarded outgoing transition</value>
+  </data>
+  <data name="sSqlScriptStartTransaction" xml:space="preserve">
+    <value>Command that starts a transaction in a Sql script.</value>
+  </data>
+  <data name="sInvalidAttributeTypeDomainClass" xml:space="preserve">
+    <value>The type of attribute {0}.{1} is a domain class ({2}). Please use an association instead</value>
+  </data>
+  <data name="sFeatureAlsoDefinedInSuperclass" xml:space="preserve">
+    <value>The feature {0} in class {1} is already defined in a super class</value>
+  </data>
+  <data name="sWrongParamCount" xml:space="preserve">
+    <value>Trigger {0}: found {1} parameters, expected {2}</value>
+  </data>
+  <data name="sUnknownColumnInSingleLink" xml:space="preserve">
+    <value>Unknown Column {0} in single link {1}.{2}</value>
+  </data>
+  <data name="sKeyHasEmptySignature" xml:space="preserve">
+    <value>Key definition {0}.{1} has an empty signature</value>
+  </data>
+  <data name="sMultipleUnguardedTransitionsForTrigger" xml:space="preserve">
+    <value>Vertex "{0}" has multiple outgoing transitions with same trigger "{1}", where at least one lacks Guard</value>
+  </data>
+  <data name="sPropertyMaxDbIdentifierLength" xml:space="preserve">
+    <value>Maximum length of identifier allowed by DB backend.</value>
+  </data>
+  <data name="sKeyHasNoName" xml:space="preserve">
+    <value>Key definition in class {0} does not have a name</value>
+  </data>
+  <data name="sAssociationEndTypeMismatch" xml:space="preserve">
+    <value>Association end {0} is of type {1}, but other end is part of {2}</value>
+  </data>
+  <data name="PropertyName" xml:space="preserve">
+    <value>Name of attribute or type (e.g. Person.FirstName or System.String).</value>
+  </data>
+  <data name="sNot2Ends" xml:space="preserve">
+    <value>Association {0} doesn''t have 2 ends</value>
+  </data>
+  <data name="sPropertyUseXFiles" xml:space="preserve">
+    <value>Add extra table where the ids of deleted objects are not removed.</value>
+  </data>
+  <data name="OclHelpTypeMethod" xml:space="preserve">
+    <value>This method is is just a passthrough to the corresponding CLR-operation, please refer to the .net SDK online help</value>
+  </data>
+  <data name="sStringTooLong" xml:space="preserve">
+    <value>String too long to be converted to a char</value>
+  </data>
+  <data name="sInternalIDFromOtherEcoSpace" xml:space="preserve">
+    <value>Internal id from other EcoSpace instance</value>
+  </data>
+  <data name="sNotEcoType" xml:space="preserve">
+    <value>{0} is not a type in the ECO typesystem</value>
+  </data>
+  <data name="sEnumValueNotInRange" xml:space="preserve">
+    <value>{0} must be in {1}, actual value was {2}</value>
+  </data>
+  <data name="sTypeConditionRefersToUndefinedDiscriminator" xml:space="preserve">
+    <value>Type condition in class {0} refers to a discriminator {1}), that is not defined</value>
+  </data>
+  <data name="ParentMappedClassIsSubclassToChildMappedClass" xml:space="preserve">
+    <value>Class {0} is parentmapped, but subclass of a childmapped class ({1})</value>
+  </data>
+  <data name="sInvalidMapping_DuplicateAutoIncImplForKeyDef" xml:space="preserve">
+    <value>KeyDefinition {0} has multiple implementations marked as IsAutoInc</value>
+  </data>
+  <data name="sClassifierIsNotAClass" xml:space="preserve">
+    <value>The classifier {0} is not a class</value>
+  </data>
+  <data name="sDuplicateClassName" xml:space="preserve">
+    <value>Two classes with same unqualified name {0}, {1}</value>
+  </data>
+  <data name="sTransitionCrossesRegionBoundary" xml:space="preserve">
+    <value>Transition from: {0} to {1} crosses boundary to sibling region</value>
+  </data>
+  <data name="sPropertyDropIndexTemplate" xml:space="preserve">
+    <value>SQL template for dropping an index.</value>
+  </data>
+  <data name="sPropertyUseTimestampTable" xml:space="preserve">
+    <value>Use a table to store time stamps. Required if versioned classes are used.</value>
+  </data>
+  <data name="sSqlPreQuoteChar" xml:space="preserve">
+    <value>Used with SqlPostQuoteChar to quote table and column names like: [My Name]</value>
+  </data>
+  <data name="sCantGetID" xml:space="preserve">
+    <value>Can't get ID ({0}: {1})!</value>
+  </data>
+  <data name="sMissingColumnNameForDiscriminatorImpl" xml:space="preserve">
+    <value>DiscriminatorImpl {2} in alias {0}.{1} has no column name</value>
+  </data>
+  <data name="sUnknownClassifierTypeForElement" xml:space="preserve">
+    <value>unknown classifier type for element</value>
+  </data>
+  <data name="sKeyHasConstantColumnWithNoName" xml:space="preserve">
+    <value>Key implementation {0}.{1}.{2} contains a constant column with no column name</value>
+  </data>
+  <data name="sDuplicateClassDefinitions" xml:space="preserve">
+    <value>The class {0} is defined multiple times</value>
+  </data>
+  <data name="sSqlPostQuoteChar" xml:space="preserve">
+    <value>Used with SqlPreQuoteChar to quote table and column names like: [My Name]</value>
+  </data>
+  <data name="sCategoryPersistenceTuning" xml:space="preserve">
+    <value>ECO|Performance tuning</value>
+  </data>
+  <data name="MapperDoesntImplementInterface" xml:space="preserve">
+    <value>"{0}" doesn't implement {1}</value>
+  </data>
+  <data name="sMultiplePacakgesSameName" xml:space="preserve">
+    <value>System contains multiple packages named {0}</value>
+  </data>
+  <data name="sDuplicateKeysInAlias" xml:space="preserve">
+    <value>Duplicate key implementation definitions ({0}) in alias {1}.{2}</value>
+  </data>
+  <data name="sDuplicateKeysInClass" xml:space="preserve">
+    <value>Duplicate key definitions ({0}) in class {1}</value>
+  </data>
+  <data name="sAssociationNotInIncludedPackage" xml:space="preserve">
+    <value>Association {0} is not in an Eco package included in the EcoSpace {1}</value>
+  </data>
+  <data name="sInvalidMapping_TypeCondOverridesFinalValue" xml:space="preserve">
+    <value>A discriminator value for discriminator {0} is defined in class {1} but it is marked as final in a superclass</value>
+  </data>
+  <data name="UnknownIdType" xml:space="preserve">
+    <value>Unknown IdType: {0}</value>
+  </data>
+  <data name="sIOclOperationNotImplemented" xml:space="preserve">
+    <value>Type {0} does not implement IOclOperation</value>
+  </data>
+  <data name="sMissingTableInAlias" xml:space="preserve">
+    <value>Missing table in alias {0}.{1}</value>
+  </data>
+  <data name="sInvalidOwnedElementAttribute" xml:space="preserve">
+    <value>Invalid UmlMetaAttribute "ownedElement" for package {0}</value>
+  </data>
+  <data name="TypeIsNotAValidForOclOperationAttribute" xml:space="preserve">
+    <value>Type {0} does not implement IOclOperation, and does not define any static operations that can be used as OCL operations</value>
+  </data>
+  <data name="sDuplicateUmlElementAttribute" xml:space="preserve">
+    <value>Duplicate UmlElementAttribute on {0}</value>
+  </data>
+  <data name="sPropertyUseTimestampColumn" xml:space="preserve">
+    <value>Use a column to store time stamps.</value>
+  </data>
+  <data name="sPropertyMaxParamsInIdList" xml:space="preserve">
+    <value>Maximum number of IDs before switching to literal IDs instead of parameters.</value>
+  </data>
+  <data name="sPropertyUseClockLog" xml:space="preserve">
+    <value>Add table that logs the actual time of timestamps.</value>
+  </data>
+  <data name="sPropertySQLForNotNull" xml:space="preserve">
+    <value>SQL template for specifying NOT NULL.</value>
+  </data>
+  <data name="sDeriveAndSubscribeReturnedNull" xml:space="preserve">
+    <value>DeriveAndSubscribe for {0}.{1} returned an unexpected null value</value>
+  </data>
+  <data name="sListIsNull" xml:space="preserve">
+    <value>List is null</value>
+  </data>
+  <data name="sPropertyUseReadOnly" xml:space="preserve">
+    <value>Add column to root class table, allowing objects to be marked as Read Only.</value>
+  </data>
+  <data name="sTriggerIsNotAMethodOnClass" xml:space="preserve">
+    <value>Trigger {0} is not a method on class {1}</value>
+  </data>
+  <data name="sAssociationEndNotAssociation" xml:space="preserve">
+    <value>AssociationEnd {0}.{1} not part of association. Probably due to incorrect or missing UmlElement attribute</value>
+  </data>
+  <data name="sElementIsReadOnly" xml:space="preserve">
+    <value>Element is readonly</value>
+  </data>
+  <data name="sMapperDoesNotSupportMappingInterfaces" xml:space="preserve">
+    <value>Mapper ({0}/{1}) does not support mapping interfaces.</value>
+  </data>
+  <data name="sPropertyMaxIndexNameLength" xml:space="preserve">
+    <value>Maximum length of index name allowed by DB backend.</value>
+  </data>
+  <data name="sUnknownMember" xml:space="preserve">
+    <value>Class {0} has no member called {1}</value>
+  </data>
+  <data name="sMissingNameForDiscriminatorValue" xml:space="preserve">
+    <value>Class {0} specifies a DiscriminatorValue that has no name</value>
+  </data>
+  <data name="sInvalidMapping_DuplicateKeyDefs" xml:space="preserve">
+    <value>Key "{0}" is defined in class {1} but it is already defined in a superclass</value>
+  </data>
+  <data name="sSQLConfigEmpty" xml:space="preserve">
+    <value>Unable to perform requested operation. The SqlDatabaseConfig.PersistenceMappers property is empty, please update your persistence mapper (right click component for preconfigured settings).</value>
+  </data>
+  <data name="sInvalidAttributeType" xml:space="preserve">
+    <value>Attribute {0}.{1} has an invalid type: {2}. Only arrays, enums, strings and valuetypes are allowed</value>
+  </data>
+  <data name="sMultipleAssociationsSameName" xml:space="preserve">
+    <value>System contains multiple associations named {0}</value>
+  </data>
+  <data name="sSqlQuoteChar" xml:space="preserve">
+    <value>The character to use when quoting table and column names in sql commands</value>
+  </data>
+  <data name="sDuplicateColumnDefinitions" xml:space="preserve">
+    <value>The Column {0} is defined multiple times in table {1}</value>
+  </data>
+  <data name="sInvalidMapping_DuplicateDiscriminatorDefs" xml:space="preserve">
+    <value>Discriminator "{0}" is defined in class {1} but it is already defined in a superclass</value>
+  </data>
+  <data name="sPropertyIdMappers" xml:space="preserve">
+    <value>Definitions for the ID mappers to be used.</value>
+  </data>
+  <data name="sMultipleTypeConditionsForClass" xml:space="preserve">
+    <value>Multiple type conditions for class {0}</value>
+  </data>
+  <data name="sClassRefersToUnknownAssociation" xml:space="preserve">
+    <value>Class {0} refers to an association ({1}) that is unknown</value>
+  </data>
+  <data name="sAssociationHasNoEnds" xml:space="preserve">
+    <value>Association {0} has no ends</value>
+  </data>
+  <data name="sUnableToFindImplementor" xml:space="preserve">
+    <value>Unable to find IAutoIncAttributeMapping for "AutoInc", please update your SqlDatabaseConfig.PersistenceMappers</value>
+  </data>
+  <data name="sSingleLinkDoesNotSpecifyKey" xml:space="preserve">
+    <value>Single link definition {0}.{1} does not specify a valid key</value>
+  </data>
+  <data name="sUpperCaseFunctionName" xml:space="preserve">
+    <value>In most databases, this should be "UPPER", in MSAccess, this should be "UCASE"</value>
+  </data>
+  <data name="sPropertyDefaultStringLength" xml:space="preserve">
+    <value>Default length of strings.</value>
+  </data>
+  <data name="PropertyMapperTypeName" xml:space="preserve">
+    <value>Name of persistence mapper (FQN, e.g. Eco.Persistence.Default.StringAsVarChar).</value>
+  </data>
+  <data name="sNoStateAttributeForRegionContainingState" xml:space="preserve">
+    <value>No StateAttribute defined for region containing state {0}</value>
+  </data>
+  <data name="sModelNotEcoified" xml:space="preserve">
+    <value>Model not Ecoified</value>
+  </data>
+  <data name="sInvalidParamType" xml:space="preserve">
+    <value>Trigger {0} Parameter {1}[{2}], Expected {3}, found {4}</value>
+  </data>
+  <data name="sPropertyAllowMetadataChangesInTransaction" xml:space="preserve">
+    <value>Specifies DB backend allows meta data changes within transactions.</value>
+  </data>
+  <data name="sKeyColumnCountDiffers" xml:space="preserve">
+    <value>Key implementation {0}.{1}.{2} and key definition {3} differs in column count</value>
+  </data>
+  <data name="sReadBeforeSet" xml:space="preserve">
+    <value>Attempt to read value before setting it</value>
+  </data>
+  <data name="sUnableToInstantiateMapper" xml:space="preserve">
+    <value>Unable to instantiate mapper {0}</value>
+  </data>
+  <data name="sPropertySupportsConstraintsInCreateTable" xml:space="preserve">
+    <value>Specifies if constraints can be specified in CREATE TABLE statements.</value>
+  </data>
+  <data name="sStatemachineMultipleRegionsSameName" xml:space="preserve">
+    <value>Statemachine {0} has multiple Regions named {1}</value>
+  </data>
+  <data name="sNoLocator" xml:space="preserve">
+    <value>The LocatorEventArgs did not contain a Locator</value>
+  </data>
+  <data name="sUseGetAsCollection" xml:space="preserve">
+    <value>Operation not implemented for collections, use GetAsCollection&lt;T&gt; instead.</value>
+  </data>
+  <data name="sNotValidOclDerivationOverride" xml:space="preserve">
+    <value>{0} is not a valid OCL derivation override</value>
+  </data>
+  <data name="sTypenotAnEcoAssociation" xml:space="preserve">
+    <value>Type {0} is not an EcoAssociation</value>
+  </data>
+  <data name="MissingTypeForColumn" xml:space="preserve">
+    <value>Missing type for column: {0}.{1}</value>
+  </data>
+  <data name="sPropertyUseSQL92Joins" xml:space="preserve">
+    <value>Specifies if SQL92 style JOINs are used.</value>
+  </data>
+  <data name="sErrorBuildingStateMachineFromTransportFormat" xml:space="preserve">
+    <value>Error building state machine from transport format {0}</value>
+  </data>
+  <data name="sTypeDiscriminatorImplementationRefersToUnknownColumn" xml:space="preserve">
+    <value>Type discriminator in alias {0}.{1} refers to an unknown column ({2}) in table {3}</value>
+  </data>
+  <data name="sUnknownRegionName" xml:space="preserve">
+    <value>Statemachine contains no region named {0}</value>
+  </data>
+  <data name="sPropertyFetchBlockSize" xml:space="preserve">
+    <value>Maximum number of objects to fetch in one select statement.</value>
+  </data>
+  <data name="sUnknownDatabaseInAlias" xml:space="preserve">
+    <value>Unknown database {0} in alias {1}.{2}</value>
+  </data>
+  <data name="sUnknownDatabaseInClass" xml:space="preserve">
+    <value>Unknown database "{0}" in class "{1}"</value>
+  </data>
+  <data name="sClassIDRefersToUndefinedKey" xml:space="preserve">
+    <value>Class {0} defines an id that refers to a key ({1}) that does not exist</value>
+  </data>
+  <data name="sKeyImplementationMissingImplementsKey" xml:space="preserve">
+    <value>Key implementation {0}.{1}.{2} does not specify the "ImplementsKey" attribute</value>
+  </data>
+  <data name="sUnknownElementInKey" xml:space="preserve">
+    <value>Unknown XML element ({0}) in key implementation (key: {3} in alias {1}.{2})</value>
+  </data>
+  <data name="sRegionHasNoInitialState" xml:space="preserve">
+    <value>Region "{0}" has no initial state</value>
+  </data>
+  <data name="sTypeDiscriminatorImplementationRefersToUnknownDiscriminator" xml:space="preserve">
+    <value>Type discriminator in alias {0}.{1} refers to a type discriminator ({2}) that is not defined in any superclass</value>
+  </data>
+  <data name="sClassNotInModel" xml:space="preserve">
+    <value>There is no class called "{0}" in the model</value>
+  </data>
+  <data name="sStateAttributeNotAnAttributeOnClass" xml:space="preserve">
+    <value>StateAttribute: {0} is not an attribute on class {1}</value>
+  </data>
+  <data name="sUnknownColumnInAttribute" xml:space="preserve">
+    <value>Unknown Column {0} in attribute {1}.{2}</value>
+  </data>
+  <data name="sGetKeyNotValidForUnsavedObjects" xml:space="preserve">
+    <value>GetKey is not a valid operation for unsaved objects</value>
+  </data>
+  <data name="sOptimisticLockingFailed" xml:space="preserve">
+    <value>Optimistic locking failed for {0} objects</value>
+  </data>
+  <data name="sTransitionsWithAndWithoutTriggers" xml:space="preserve">
+    <value>Vertex "{0}" has outgoing transitions both with and without triggers (without guards)</value>
+  </data>
+  <data name="sSqlQuoteCharInString" xml:space="preserve">
+    <value>Replacement string to represent quote characters inside a string literal in a sql command</value>
+  </data>
+  <data name="sKeepOnlyValidForModifiedMembers" xml:space="preserve">
+    <value>Action 'Keep' is only valid for modified members</value>
+  </data>
+  <data name="sUnknownStateName" xml:space="preserve">
+    <value>Statemachine contains no state named {0}</value>
+  </data>
+  <data name="sPropertyQuoteSqlNames" xml:space="preserve">
+    <value>Indicates if SQL names should be quoted.</value>
+  </data>
+  <data name="sNameNotUnique" xml:space="preserve">
+    <value>Name {0} is not unique.</value>
+  </data>
+  <data name="sRootStateAttributeAllowsNull" xml:space="preserve">
+    <value>Root state attribute "{1}.{0}" must not allow NULL</value>
+  </data>
+  <data name="sSingleLinkKeyRefersToUndefinedClass" xml:space="preserve">
+    <value>Key in single link definition {0}.{1} refers to a class ({2}) that does not exist in model</value>
+  </data>
+  <data name="sAutoMultiplicityConstraintDesc" xml:space="preserve">
+    <value>Role {0} must have {1} {2} {3}</value>
+  </data>
+  <data name="UnknownTypeOfOtherEnd" xml:space="preserve">
+    <value>AssociationEnd {0}.{1} has an unknown type: {2}. Must be a class in the model</value>
+  </data>
+  <data name="sTargetIsNotAVertex" xml:space="preserve">
+    <value>Target: {0}{1} is not the the name of a vertex in the State Machine</value>
+  </data>
+  <data name="sPropertyDefaultDateTime" xml:space="preserve">
+    <value>The default DateTime value to be used when creating DateTime columns.</value>
+  </data>
+  <data name="sNoTransition" xml:space="preserve">
+    <value>Unable to find a transition for trigger {0} from state {1} in class {2}</value>
+  </data>
+  <data name="sSqlScriptRollBackTransaction" xml:space="preserve">
+    <value>Command that rolls back a transaction in a Sql script.</value>
+  </data>
+  <data name="sUnknownTriggerName" xml:space="preserve">
+    <value>Statemachine contains no trigger named {0}</value>
+  </data>
+  <data name="sAtMost" xml:space="preserve">
+    <value>at most</value>
+  </data>
+  <data name="sUMVUseTimeStampRequired" xml:space="preserve">
+    <value>148 Model has versioned classes, but the SQLDatabaseConfig does not have UseTimeStamp set to true</value>
+  </data>
+  <data name="sNoValueForTag" xml:space="preserve">
+    <value>No value for tag '{0}'</value>
+  </data>
+  <data name="sClassCannotDefineID" xml:space="preserve">
+    <value>Class {0} can not define an id because an ancestor class ({1}) already defines an id</value>
+  </data>
+  <data name="sStateMultipleRegionsSameName" xml:space="preserve">
+    <value>State {0} has multiple Regions named {1}</value>
+  </data>
+  <data name="sAliasDoesNotSpecifyKeys" xml:space="preserve">
+    <value>Alias {0}.{1} does not specify any keys</value>
+  </data>
+  <data name="sTypeNotFound" xml:space="preserve">
+    <value>{0}.{1}, type {2} not found</value>
+  </data>
+  <data name="sKeepOnlyValidForDeletedObjects" xml:space="preserve">
+    <value>Action 'Keep' is only valid if the object is deleted.</value>
+  </data>
+  <data name="sUnknownColumnNameInKeyImpl" xml:space="preserve">
+    <value>Unknown column name ({0}) for KeyImpl in alias {1}.{2}</value>
+  </data>
+  <data name="sKeyHasUnknownSignature" xml:space="preserve">
+    <value>There is no persistence mapper defined for "{2}" in key definition {0}.{1}, check your SqlDatabaseConfig</value>
+  </data>
+  <data name="sAtLeast" xml:space="preserve">
+    <value>at least</value>
+  </data>
+  <data name="sFeatureDoesNotSpecifyColumns" xml:space="preserve">
+    <value>Feature definition {0}.{1} does not specify any columns</value>
+  </data>
+  <data name="sClassContainsAliasWithNoName" xml:space="preserve">
+    <value>Class {0} contains an alias definition with no name</value>
+  </data>
+  <data name="sMissingMappingForFeature" xml:space="preserve">
+    <value>There is no persistence mapping defined for {0}.{1}</value>
+  </data>
+  <data name="sForceUpperCase" xml:space="preserve">
+    <value>Forces identifiers for tables/columns to use upper case</value>
+  </data>
+  <data name="sIsTriggerNotSet" xml:space="preserve">
+    <value>Method {0}.{1} is used as trigger, but IsTrigger is not true</value>
+  </data>
+  <data name="sMissingDiscriminatorForDiscriminatorImpl" xml:space="preserve">
+    <value>DiscriminatorImpl in alias {0}.{1} has no Discriminator</value>
+  </data>
+  <data name="sMissingIdForClass" xml:space="preserve">
+    <value>Class {0} does not define any id</value>
+  </data>
+  <data name="sSqlScriptSeparator" xml:space="preserve">
+    <value>Token that separates two commands in a Sql script (will be placed on separate lines between commands).</value>
+  </data>
+  <data name="sMultipleIDsForClass" xml:space="preserve">
+    <value>Multiple id definitions for class {0}</value>
+  </data>
+  <data name="sKeyAttributeHasNoValue" xml:space="preserve">
+    <value>An attribute is defined to be the source for the primary key for the object, but it has no value</value>
+  </data>
+  <data name="sSqlStringQuoteChar" xml:space="preserve">
+    <value>This will be used to surround string literals in sql commands</value>
+  </data>
+  <data name="sClassIsAbstract" xml:space="preserve">
+    <value>Class "{0}" is abstract</value>
+  </data>
+  <data name="sAssociationAlreadyBelongsToPackage" xml:space="preserve">
+    <value>Association {0} already belongs to Package {1}</value>
+  </data>
+  <data name="sClassMappingWithNoName" xml:space="preserve">
+    <value>Class mapping found with no name</value>
+  </data>
+  <data name="sAliasKeyRefersToNonExistingKey" xml:space="preserve">
+    <value>Key implementation {0} in alias {1} in class {2} refers to a key that is not defined</value>
+  </data>
+  <data name="sIsNotA" xml:space="preserve">
+    <value>{0} is not a {1}</value>
+  </data>
+  <data name="sSingleLinkNotInModel" xml:space="preserve">
+    <value>Single link {0}.{1} does not exist in model</value>
+  </data>
+  <data name="sMultiplePackageElementsSameName" xml:space="preserve">
+    <value>Package {0} contains multiple elements named {1}</value>
+  </data>
+  <data name="sDerivedMemberHasNoDerivation" xml:space="preserve">
+    <value>Derived member {0}.{1} has no derivation defined</value>
+  </data>
+  <data name="sTypeIsNotAValidSimpleType" xml:space="preserve">
+    <value>Type {0} is not a valid "SimpleType", only valuetypes, strings, enums and arrays are allowed.</value>
+  </data>
+  <data name="sCantGetEcoSpaceProvider" xml:space="preserve">
+    <value>Cant get an EcoServiceProvider from '{0}'</value>
+  </data>
+  <data name="sAttributeNotInModel" xml:space="preserve">
+    <value>Attribute {0}.{1} does not exist in model</value>
+  </data>
+  <data name="sAliasContainsKeyWithNoName" xml:space="preserve">
+    <value>Alias {0}.{1} contains a key implementation with no name</value>
+  </data>
+  <data name="sIsStateAttributeNotSet" xml:space="preserve">
+    <value>StateAttribute: {1}.{0} does not have the IsStateAttribute tagged value set</value>
+  </data>
+  <data name="sChildMappedConcreteClass" xml:space="preserve">
+    <value>Class {0} has table mapping "Children" but is not defined to be abstract</value>
+  </data>
+  <data name="sPropertyUseGlobalId" xml:space="preserve">
+    <value>Add Globally Unique Ids to XFiles table.</value>
+  </data>
+  <data name="sAutoMultiplicityConstraintModelName" xml:space="preserve">
+    <value>{0} multiplicity constraint</value>
+  </data>
+  <data name="sDuplicateTableDefinitions" xml:space="preserve">
+    <value>The table {0} is defined multiple times</value>
+  </data>
+  <data name="sPackageAlreadyBelongsToPackage" xml:space="preserve">
+    <value>Package {0} already belongs to Package {1}</value>
+  </data>
+  <data name="sDuplicateAssociationName" xml:space="preserve">
+    <value>Two Associations with same unqualified name {0}, {1}</value>
+  </data>
+  <data name="sDuplicateColumnsWithDifferentCase" xml:space="preserve">
+    <value>Duplicate columns with different case in table {0}: {1}, {2}</value>
+  </data>
+  <data name="sNoValidInitialTransition" xml:space="preserve">
+    <value>No valid initial transition from State {0} in class {1}</value>
+  </data>
+  <data name="sIdentifierCharacterMode" xml:space="preserve">
+    <value>Indicates how non-ascii characters in table and columns names should be handled</value>
+  </data>
+  <data name="sSqlScriptCommitTransaction" xml:space="preserve">
+    <value>Command that commits a transaction in a Sql script.</value>
+  </data>
+  <data name="sKeyHasConstantColumnWithNoValue" xml:space="preserve">
+    <value>Key implementation {0}.{1}.{2} contains a constant column with no value</value>
+  </data>
+  <data name="sSqlScriptCommentStart" xml:space="preserve">
+    <value>Token that starts a comment in a Sql script.</value>
+  </data>
+  <data name="sFeatureDoesNotSpecifyAlias" xml:space="preserve">
+    <value>Feature definition {0}.{1} does not specify an alias</value>
+  </data>
+  <data name="sInvalidValueForStateVariable" xml:space="preserve">
+    <value>{0}: "{1}" is not a valid value for state variable {2}</value>
+  </data>
+  <data name="sError" xml:space="preserve">
+    <value>ERROR:</value>
+  </data>
+  <data name="sPropertyDateTimeFormat" xml:space="preserve">
+    <value>Format used by DateTime.ToString(string format) to set default value for DateTime columns (be careful with your quotes, and server settings).</value>
+  </data>
+</root>

@@ -1,0 +1,20 @@
+[
+    {
+        "Id": 0,
+        "Letters": ["L", "A", "I", "T"],
+        "NbWords": 4,
+        "Words": ["LA","LIT", "LAIT", "AIT", "A", "AI", "TA"]
+    },
+    {
+        "Id": 1,
+        "Letters": ["V", "U", "S", "E"],
+        "NbWords": 6,
+        "Words": ["VU","SU", "SE", "VUS", "SUE", "VUE", "USE", "VUES", "ES"]
+    },
+    {
+        "Id": 2,
+        "Letters": ["N", "E", "Z", "T", "R", "E", "A", "I"],
+        "NbWords": 8,
+        "Words": ["NE","NEZ", "ETRE", "TRAINE", "TANE", "TAIRE", "TARE", "TA", "TE", "TIRE"]
+    },
+]

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>S202P14</Machine>
-    <WindowsUser>aa205651</WindowsUser>
+    <Machine>DESKTOP-HI581B1</Machine>
+    <WindowsUser>Alexa</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,169 +10,184 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>0ba158c1-2a94-4ea6-8712-6e7c2270274a</PackageIdentityName>
     <PackageIdentityPublisher>CN=aa205651</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\aa205651\Documents\c#\GameBox\GameBox\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\GameBox.exe">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\GameBox.exe">
       <PackagePath>entrypoint\GameBox.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\.nuget\packages\ecocore\7.0.0.11806\lib\portable-windows8+net45\Eco.Handles.PortableCL.dll">
+      <PackagePath>Eco.Handles.PortableCL.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\.nuget\packages\ecocore\7.0.0.11806\lib\portable-windows8+net45\Eco.Interfaces.PortableCL.dll">
+      <PackagePath>Eco.Interfaces.PortableCL.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\.nuget\packages\ecocore\7.0.0.11806\lib\portable-windows8+net45\Eco.Linq.PortableCL.dll">
+      <PackagePath>Eco.Linq.PortableCL.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\.nuget\packages\system.drawing.common\4.7.0\lib\netstandard2.0\System.Drawing.Common.dll">
+    <AppxPackagedFile Include="C:\Users\Alexa\.nuget\packages\system.drawing.common\4.7.0\lib\netstandard2.0\System.Drawing.Common.dll">
       <PackagePath>System.Drawing.Common.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\A.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\A.png">
       <PackagePath>Assets\A.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\B.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\B.png">
       <PackagePath>Assets\B.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\C.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\C.png">
       <PackagePath>Assets\C.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\card-back.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\card-back.png">
       <PackagePath>Assets\card-back.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\D.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\D.png">
       <PackagePath>Assets\D.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\E.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\E.png">
       <PackagePath>Assets\E.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\F.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\F.png">
       <PackagePath>Assets\F.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\G.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\G.png">
       <PackagePath>Assets\G.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\H.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\H.png">
       <PackagePath>Assets\H.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\I.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\I.png">
       <PackagePath>Assets\I.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\J.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\J.png">
       <PackagePath>Assets\J.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\K.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\K.png">
       <PackagePath>Assets\K.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\L.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\L.png">
       <PackagePath>Assets\L.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\M.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\M.png">
       <PackagePath>Assets\M.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\moon.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\moon.png">
       <PackagePath>Assets\moon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\N.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\N.png">
       <PackagePath>Assets\N.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\O.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\O.png">
       <PackagePath>Assets\O.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\P.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\P.png">
       <PackagePath>Assets\P.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Q.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Q.png">
       <PackagePath>Assets\Q.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\R.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\R.png">
       <PackagePath>Assets\R.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\S.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\S.png">
       <PackagePath>Assets\S.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\T.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\T.png">
       <PackagePath>Assets\T.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\U.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\U.png">
       <PackagePath>Assets\U.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\V.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\V.png">
       <PackagePath>Assets\V.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\W.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\W.png">
       <PackagePath>Assets\W.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\X.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\X.png">
       <PackagePath>Assets\X.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Y.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Y.png">
       <PackagePath>Assets\Y.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Z.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Z.png">
       <PackagePath>Assets\Z.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\GameBox.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\Assets\levels.json">
+      <PackagePath>Assets\levels.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\GameBox.xr.xml">
       <PackagePath>GameBox.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\Pages\GameIntrus.xbf">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\Pages\GameIntrus.xbf">
       <PackagePath>Pages\GameIntrus.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\Pages\GameMemory.xbf">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\Pages\GameMemory.xbf">
       <PackagePath>Pages\GameMemory.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aa205651\Documents\c#\GameBox\GameBox\bin\x86\Debug\Core\GameBox.exe">
+    <AppxPackagedFile Include="C:\Users\Alexa\Documents\Projets\C#\GameBox\GameBox\bin\x86\Debug\Core\GameBox.exe">
       <PackagePath>GameBox.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
