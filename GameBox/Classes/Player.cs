@@ -16,6 +16,7 @@ namespace GameBox.Classes
         {
         }
 
+        //Singleton
         public static Player Instance
         {
             get

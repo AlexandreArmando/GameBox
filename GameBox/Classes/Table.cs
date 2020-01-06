@@ -7,13 +7,14 @@ namespace GameBox.Classes
 {
     class Table
     {
+        // The list of levels
         private List<Level> levels;       
 
         public Table()
         {
             this.levels = new List<Level>();
+            // Call to parser
             loadJson();
-
         }
 
         // Load and deserialize levels from JSON file in the Assets folder
@@ -30,22 +31,6 @@ namespace GameBox.Classes
         {
             get => levels;
             set => levels = value;
-        }
-
-        private List<Card> ShuffleList<Card>(List<Card> inputList)
-        {
-            List<Card> randomList = new List<Card>();
-
-            Random r = new Random();
-            int randomIndex = 0;
-            while (inputList.Count > 0)
-            {
-                randomIndex = r.Next(0, inputList.Count);
-                randomList.Add(inputList[randomIndex]); 
-                inputList.RemoveAt(randomIndex);
-            }
-
-            return randomList;
         }
     }
 }

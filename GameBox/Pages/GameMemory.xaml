@@ -26,6 +26,7 @@
             <RowDefinition Height="0.5*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
+        <!-- Popup -->
         <Popup VerticalOffset="10" HorizontalOffset="200" x:Name="StandardPopup">
             <Border BorderBrush="{StaticResource ApplicationForegroundThemeBrush}" 
                 Background="Green"
@@ -36,10 +37,18 @@
                 </StackPanel>
             </Border>
         </Popup>
+        <!-- Buttons -->
         <Button x:Name="backButton" Content="Back" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Click="Back_Click"/>
+        <Button x:Name="wordValidationButton" Content="Send" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="5" Grid.Column="2" Click="sendWord" Background="Green"></Button>
+        <Button x:Name="endLevelButton" Content="Solution" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="5" Grid.Column="3" Click="SeeSolutions"></Button>
+        <Button x:Name="deleteButton" Content="Delete" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="3" Click="popLast" Background="Red"></Button>
+        <!-- Labels -->
         <TextBlock x:Name="levelLabel" Text="Level :" HorizontalAlignment="Center" Grid.Column="5" Grid.Row="0" VerticalAlignment="Center"/>
         <TextBlock x:Name="playerLabel" Text="Player :" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="0" VerticalAlignment="Center"/>
-        <TextBlock x:Name="playerNameLabel" Text="" HorizontalAlignment="Center" Grid.Column="3" Grid.Row="0" VerticalAlignment="Center"/>
+        <TextBlock x:Name="playerNameLabel" Text="" HorizontalAlignment="Center" FontSize="18" Grid.Column="3" Grid.Row="0" VerticalAlignment="Center"/>
+        <TextBlock x:Name="nbWordsToWinLabel" Grid.Row="3" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        <TextBlock x:Name="wordLabel" FontSize="25px" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="2"></TextBlock>
+        <!-- Letters -->
         <Image x:Name="card0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="2" MinHeight="50" MinWidth="50" Margin="20" Tapped="letterClicked" />
         <Image x:Name="card1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="3" MinHeight="50" MinWidth="50" Margin="20" Tapped="letterClicked" />
         <Image x:Name="card2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="3" MinHeight="50" MinWidth="50" Margin="20" Tapped="letterClicked" />
@@ -48,12 +57,8 @@
         <Image x:Name="card5" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="4" MinHeight="50" MinWidth="50" Margin="20" Tapped="letterClicked" />
         <Image x:Name="card6" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" MinHeight="50" MinWidth="50" Margin="20" Tapped="letterClicked" />
         <Image x:Name="card7" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" MinHeight="50" MinWidth="50" Margin="20" Tapped="letterClicked" />
+        <!-- Lists -->
         <ListBox x:Name="wordsValidatedList" ItemsSource="{ Binding wordsAlreadyValidated }" Grid.Row="2" Grid.Column="5"></ListBox>
         <ListBox x:Name="solutionList" ItemsSource="{ Binding solutions }" Grid.Row="4" Grid.Column="5"></ListBox>
-        <TextBlock x:Name="nbWordsToWinLabel" Grid.Row="3" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-        <TextBlock x:Name="wordLabel" FontSize="25px" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="2"></TextBlock>
-        <Button x:Name="wordValidationButton" Content="Send" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="5" Grid.Column="2" Click="sendWord" Background="Green"></Button>
-        <Button x:Name="endLevelButton" Content="Solution" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="5" Grid.Column="3" Click="SeeSolutions"></Button>
-        <Button x:Name="deleteButton" Content="Delete" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="3" Click="popLast" Background="Red"></Button>
     </Grid>
 </Page>

@@ -26,6 +26,7 @@
             <RowDefinition Height="0.5*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
+        <!-- Popup -->
         <Popup x:ConnectionId='2' VerticalOffset="10" HorizontalOffset="200" x:Name="StandardPopup">
             <Border BorderBrush="{StaticResource ApplicationForegroundThemeBrush}" 
                 Background="Green"
@@ -36,25 +37,29 @@
                 </StackPanel>
             </Border>
         </Popup>
+        <!-- Buttons -->
         <Button x:ConnectionId='3' x:Name="backButton" Content="Back" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center"                   />
-        <TextBlock x:ConnectionId='4' x:Name="levelLabel" Text="Level :" HorizontalAlignment="Center" Grid.Column="5" Grid.Row="0" VerticalAlignment="Center"/>
-        <TextBlock x:ConnectionId='5' x:Name="playerLabel" Text="Player :" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="0" VerticalAlignment="Center"/>
-        <TextBlock x:ConnectionId='6' x:Name="playerNameLabel" Text="" HorizontalAlignment="Center" Grid.Column="3" Grid.Row="0" VerticalAlignment="Center"/>
-        <Image x:ConnectionId='7' x:Name="card0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="2" MinHeight="50" MinWidth="50" Margin="20"                        />
-        <Image x:ConnectionId='8' x:Name="card1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="3" MinHeight="50" MinWidth="50" Margin="20"                        />
-        <Image x:ConnectionId='9' x:Name="card2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="3" MinHeight="50" MinWidth="50" Margin="20"                        />
-        <Image x:ConnectionId='10' x:Name="card3" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="2" MinHeight="50" MinWidth="50" Margin="20"                        />
-        <Image x:ConnectionId='11' x:Name="card4" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="4" MinHeight="50" MinWidth="50" Margin="20"                        />
-        <Image x:ConnectionId='12' x:Name="card5" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="4" MinHeight="50" MinWidth="50" Margin="20"                        />
-        <Image x:ConnectionId='13' x:Name="card6" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" MinHeight="50" MinWidth="50" Margin="20"                        />
-        <Image x:ConnectionId='14' x:Name="card7" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" MinHeight="50" MinWidth="50" Margin="20"                        />
-        <ListBox x:ConnectionId='15' x:Name="wordsValidatedList" ItemsSource="{ Binding wordsAlreadyValidated }" Grid.Row="2" Grid.Column="5"></ListBox>
-        <ListBox x:ConnectionId='16' x:Name="solutionList" ItemsSource="{ Binding solutions }" Grid.Row="4" Grid.Column="5"></ListBox>
-        <TextBlock x:ConnectionId='17' x:Name="nbWordsToWinLabel" Grid.Row="3" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-        <TextBlock x:ConnectionId='18' x:Name="wordLabel" FontSize="25px" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="2"></TextBlock>
-        <Button x:ConnectionId='19' x:Name="wordValidationButton" Content="Send" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="5" Grid.Column="2"                  Background="Green"></Button>
-        <Button x:ConnectionId='20' x:Name="endLevelButton" Content="Solution" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="5" Grid.Column="3"                     ></Button>
-        <Button x:ConnectionId='21' x:Name="deleteButton" Content="Delete" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="3"                 Background="Red"></Button>
+        <Button x:ConnectionId='4' x:Name="wordValidationButton" Content="Send" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="5" Grid.Column="2"                  Background="Green"></Button>
+        <Button x:ConnectionId='5' x:Name="endLevelButton" Content="Solution" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="5" Grid.Column="3"                     ></Button>
+        <Button x:ConnectionId='6' x:Name="deleteButton" Content="Delete" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="3"                 Background="Red"></Button>
+        <!-- Labels -->
+        <TextBlock x:ConnectionId='7' x:Name="levelLabel" Text="Level :" HorizontalAlignment="Center" Grid.Column="5" Grid.Row="0" VerticalAlignment="Center"/>
+        <TextBlock x:ConnectionId='8' x:Name="playerLabel" Text="Player :" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="0" VerticalAlignment="Center"/>
+        <TextBlock x:ConnectionId='9' x:Name="playerNameLabel" Text="" HorizontalAlignment="Center" FontSize="18" Grid.Column="3" Grid.Row="0" VerticalAlignment="Center"/>
+        <TextBlock x:ConnectionId='10' x:Name="nbWordsToWinLabel" Grid.Row="3" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        <TextBlock x:ConnectionId='11' x:Name="wordLabel" FontSize="25px" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="2"></TextBlock>
+        <!-- Letters -->
+        <Image x:ConnectionId='12' x:Name="card0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="2" MinHeight="50" MinWidth="50" Margin="20"                        />
+        <Image x:ConnectionId='13' x:Name="card1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="3" MinHeight="50" MinWidth="50" Margin="20"                        />
+        <Image x:ConnectionId='14' x:Name="card2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="3" MinHeight="50" MinWidth="50" Margin="20"                        />
+        <Image x:ConnectionId='15' x:Name="card3" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="2" MinHeight="50" MinWidth="50" Margin="20"                        />
+        <Image x:ConnectionId='16' x:Name="card4" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="4" MinHeight="50" MinWidth="50" Margin="20"                        />
+        <Image x:ConnectionId='17' x:Name="card5" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="4" MinHeight="50" MinWidth="50" Margin="20"                        />
+        <Image x:ConnectionId='18' x:Name="card6" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" MinHeight="50" MinWidth="50" Margin="20"                        />
+        <Image x:ConnectionId='19' x:Name="card7" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" MinHeight="50" MinWidth="50" Margin="20"                        />
+        <!-- Lists -->
+        <ListBox x:ConnectionId='20' x:Name="wordsValidatedList" ItemsSource="{ Binding wordsAlreadyValidated }" Grid.Row="2" Grid.Column="5"></ListBox>
+        <ListBox x:ConnectionId='21' x:Name="solutionList" ItemsSource="{ Binding solutions }" Grid.Row="4" Grid.Column="5"></ListBox>
     </Grid>
 </Page>
 

@@ -8,28 +8,42 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Background="{ ThemeResource ApplicationPageBackgroundThemeBrush }">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="50" MinWidth="15" MaxWidth="100"></ColumnDefinition>
-            <ColumnDefinition Width="300" MinWidth="150" MaxWidth="600"></ColumnDefinition>
-            <ColumnDefinition Width="50" MinWidth="15" MaxWidth="100"></ColumnDefinition>
-            <ColumnDefinition Width="300" MinWidth="150" MaxWidth="600"></ColumnDefinition>
-            <ColumnDefinition Width="50" MinWidth="15" MaxWidth="100"></ColumnDefinition>
+            <ColumnDefinition Width="500"/>
+            <ColumnDefinition Width="500"/>
+            <ColumnDefinition Width="500"/>
+
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="50" MinHeight="15"></RowDefinition>
-            <RowDefinition Height="100" MinHeight="50"></RowDefinition>
-            <RowDefinition Height="100" MinHeight="50"></RowDefinition>
-            <RowDefinition Height="50" MinHeight="15"></RowDefinition>
-            <RowDefinition Height="200" MinHeight="100"></RowDefinition>
-            <RowDefinition Height="50" MinHeight="15"></RowDefinition>
-            <RowDefinition Height="200" MinHeight="100"></RowDefinition>
-            <RowDefinition Height="50" MinHeight="15"></RowDefinition>
+            <RowDefinition Height="400"/>
         </Grid.RowDefinitions>
-        <TextBlock x:ConnectionId='2' x:Name="welcome" Text="Bienvenue" FontSize="30" Grid.Row="0" Grid.Column="1"></TextBlock>
-        <TextBlock x:ConnectionId='3' x:Name="playerName" Text="x" FontSize="30" FontWeight="Bold" Grid.Row="0" Grid.Column="3"></TextBlock>
-        <TextBlock Text="A toi de jouer :" FontSize="25"></TextBlock>
-        <TextBlock Text="Trouve l'intrus !" FontSize="25"></TextBlock>
+        <Rectangle x:ConnectionId='2' x:Name="Rectangle0" Width="200" Height="200" Fill="Blue" Grid.Row="0"  Grid.Column="0" />
+        <Rectangle x:ConnectionId='3' x:Name="Rectangle1" Width="200" Height="200" Fill="Blue" Grid.Row="0"  Grid.Column="1"/>
+        <Rectangle x:ConnectionId='4' x:Name="Rectangle2" Width="200" Height="200" Fill="Blue" Grid.Row="1"  Grid.Column="0"/>
+        <Rectangle x:ConnectionId='5' x:Name="Rectangle3" Width="200" Height="200" Fill="Blue" Grid.Row="1"  Grid.Column="1"/>
+        <StackPanel x:ConnectionId='6' x:Name="LayoutRoot"  Grid.Row="0" Grid.Column="2" >
+            <Button x:ConnectionId='7'                        Margin="40" Content="Lets start"/>
+        </StackPanel>
+
+        <Grid.Resources>
+            <!-- First. -->
+            <Storyboard x:ConnectionId='8' x:Name="myStoryBoard">
+                <DoubleAnimation Storyboard.TargetName="Rectangle0" Storyboard.TargetProperty="Opacity" From="1.0" To="0.0" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever" />
+            </Storyboard>
+            <!-- Second. -->
+            <Storyboard x:ConnectionId='9' x:Name="myStoryBoard1">
+                <DoubleAnimation Storyboard.TargetName="Rectangle1" Storyboard.TargetProperty="Opacity" From="1.0" To="0.0" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever" />
+            </Storyboard>
+            <!-- Third. -->
+            <Storyboard x:ConnectionId='10' x:Name="myStoryBoard2">
+                <DoubleAnimation Storyboard.TargetName="Rectangle2" Storyboard.TargetProperty="Opacity" From="1.0" To="0.0" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever" />
+            </Storyboard>
+            <!-- Fourth. -->
+            <Storyboard x:ConnectionId='11' x:Name="myStoryBoard3">
+                <DoubleAnimation Storyboard.TargetName="Rectangle3" Storyboard.TargetProperty="Opacity" From="1.0" To="0.0" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever" />
+            </Storyboard>
+        </Grid.Resources>
     </Grid>
 </Page>
 

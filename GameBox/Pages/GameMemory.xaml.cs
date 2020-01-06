@@ -22,14 +22,20 @@ namespace GameBox
         public ObservableCollection<string> solutions { get; set; }
         public GameMemory()
         {
+            // Words
             wordsAlreadyValidated = new ObservableCollection<string>();
             solutions = new ObservableCollection<string>();
+
             this.InitializeComponent();
             DataContext = this;
+
+            // Init
             table = new Table();
             this.player = Player.Instance;
             this.levelNumber = player.level;
             playerNameLabel.Text = player.name;
+
+            // Level init
             nbWordToFind = table.Levels[levelNumber].NbWords;
             refreshLabel();
             display.Add(card0);
@@ -40,6 +46,8 @@ namespace GameBox
             display.Add(card5);
             display.Add(card6);
             display.Add(card7);
+
+            // Display letters
             for(int i = 0; i < table.Levels[levelNumber].Letters.Count; i++)
             {
                 display[i].Source = new BitmapImage(new Uri("ms-appx:///Assets/" + table.Levels[levelNumber].Letters[i] + ".png"));       
@@ -51,11 +59,8 @@ namespace GameBox
         {
             Image img = sender as Image;
             img.IsTapEnabled = false;
-           /* if(!alreadyUsed.Contains(img))
-            {*/
             wordLabel.Text += table.Levels[levelNumber].Letters[int.Parse(img.Name.Substring(4, 1))];
             alreadyUsed.Push(img);
-            //}
         }
 
         // Remove the last letter clicked
@@ -64,7 +69,6 @@ namespace GameBox
             if(wordLabel.Text.Length > 0)
             {
                 wordLabel.Text = wordLabel.Text.Substring(0, wordLabel.Text.Length - 1);
-
                 alreadyUsed.Pop().IsTapEnabled = true;
             }
         }
@@ -105,13 +109,16 @@ namespace GameBox
             if (table.Levels.Count == levelNumber + 1) return;
             levelNumber++;
             player.level++;
+            // Cgange image letters
             for (int i = 0; i < table.Levels[levelNumber].Letters.Count; i++)
             {
                 display[i].Source = new BitmapImage(new Uri("ms-appx:///Assets/" + table.Levels[levelNumber].Letters[i] + ".png"));
             }
+            // Clear temporary datas
             clearLettersUsed();
             wordsAlreadyValidated.Clear();
             solutions.Clear();
+            // Reinit
             nbWordToFind = table.Levels[levelNumber].NbWords;
             refreshLabel();
         }

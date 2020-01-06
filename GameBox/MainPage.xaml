@@ -27,20 +27,23 @@
             <RowDefinition Height="100" MinHeight="100"></RowDefinition>
             <RowDefinition Height="15" MinHeight="15"></RowDefinition>
         </Grid.RowDefinitions>
+        <!-- Animated Stars-->
         <TextBlock x:Name="star" Width="10" Height="10" Text="*" FontSize="15" Foreground="White" Grid.Column="0" Grid.Row="0"/>
         <TextBlock x:Name="star1" Width="15" Height="15" Text="*" FontSize="17" Foreground="White" Grid.Column="2" Grid.Row="2"/>
         <TextBlock x:Name="star2" Width="10" Height="10" Text="*" FontSize="10" Foreground="WhiteSmoke" Grid.Column="0" Grid.Row="4"/>
         <TextBlock x:Name="star3" Width="20" Height="20" Text="*" FontSize="20" Foreground="White" Grid.Column="2" Grid.Row="6"/>
         <TextBlock x:Name="star4" Width="13" Height="13" Text="*" FontSize="13" Foreground="WhiteSmoke" Grid.Column="0" Grid.Row="8"/>
+        <!-- Moon picture-->
         <Image x:Name="moon" Source="Assets\moon.png" Width="180" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right"/>
-        <Ellipse x:Name="mooon" Height="8" Width="12" Fill="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" Grid.Row="1"/>
-        <TextBlock Text="Bienvenue dans le coffre à jeux !" FontSize="30" FontWeight="Bold" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="WhiteSmoke"></TextBlock>
-        <TextBlock Text="Comment t'appelles tu ?" FontSize="30" FontWeight="Bold" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray" MaxWidth="600"></TextBlock>
+        <Ellipse x:Name="satelite" Height="8" Width="12" Fill="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" Grid.Row="1"/>
+        <!-- Labels-->
+        <TextBlock Text="Welcome to Gamebox !" FontSize="30" FontWeight="Bold" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="WhiteSmoke"></TextBlock>
+        <TextBlock Text="What's your name ?" FontSize="30" FontWeight="Bold" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray" MaxWidth="600"></TextBlock>
         <TextBox x:Name="playerName" FontSize="25" Foreground="Gray" Grid.Column="1" Grid.Row="3" Height="45" TextAlignment="Center" MaxWidth="600"></TextBox>
-        <Button x:Name="firstGameButton" Grid.Row="5" Grid.Column="1" MinWidth="300" Height="100" MaxWidth="600" Content="Trouver l'intrus" FontSize="25" HorizontalAlignment="Center" Background="Gray" Click="FirstGame"></Button>
-        <Button x:Name="secondGameButton" Grid.Row="7" Grid.Column="1" MinWidth="300" Height="100" MaxWidth="600" Content="Memory des lettres" FontSize="25" HorizontalAlignment="Center" Background="Gray" Click="SecondGame"></Button>
-        <RadioButton x:Name="sound" Content="SoundOn" IsChecked="true" Grid.Column="2" Grid.Row="8" VerticalAlignment="Center"></RadioButton>
-        <TextBlock x:Name="test" Text="" FontSize="30" FontWeight="Bold" Grid.Row="9" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray" MaxWidth="600"></TextBlock>
+        <!-- Buttons -->
+        <!--<Button x:Name="firstGameButton" Grid.Row="5" Grid.Column="1" MinWidth="300" Height="100" MaxWidth="600" Content="Trouver l'intrus" FontSize="25" HorizontalAlignment="Center" Background="Gray" Click="FirstGame"></Button>-->
+        <Button x:Name="secondGameButton" Grid.Row="5" Grid.Column="1" MinWidth="300" Height="100" MaxWidth="600" Content="Mixed letters" FontSize="25" HorizontalAlignment="Center" Background="Gray" Click="SecondGame"></Button>
+        <!-- Animations -->
         <Grid.Resources>
             <Storyboard x:Name="myStoryBoard">
                 <DoubleAnimation Storyboard.TargetName="star" Storyboard.TargetProperty="Opacity" From="1.0" To="0.0" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever"/>
@@ -48,7 +51,7 @@
                 <DoubleAnimation Storyboard.TargetName="star2" Storyboard.TargetProperty="Opacity" From="1.0" To="0.2" Duration="0:0:3" AutoReverse="True" RepeatBehavior="Forever"/>
                 <DoubleAnimation Storyboard.TargetName="star3" Storyboard.TargetProperty="Opacity" From="1.0" To="0.2" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever"/>
                 <DoubleAnimation Storyboard.TargetName="star4" Storyboard.TargetProperty="Opacity" From="1.0" To="0.2" Duration="0:0:3" AutoReverse="True" RepeatBehavior="Forever"/>
-                <DoubleAnimation Storyboard.TargetName="firstGameButton" Storyboard.TargetProperty="Opacity" From="1.0" To="0.8" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever"/>
+                <!--<DoubleAnimation Storyboard.TargetName="firstGameButton" Storyboard.TargetProperty="Opacity" From="1.0" To="0.8" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever"/>-->
                 <DoubleAnimation Storyboard.TargetName="secondGameButton" Storyboard.TargetProperty="Opacity" From="1.0" To="0.8" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever"/>
             </Storyboard>
         </Grid.Resources>

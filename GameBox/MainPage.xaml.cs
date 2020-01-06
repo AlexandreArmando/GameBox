@@ -32,7 +32,7 @@ namespace GameBox
             player = Player.Instance;
             myStoryBoard.Begin();
         }
-
+        /*
         public void FirstGame(object sender, RoutedEventArgs e)
         {
             if(playerName.Text != "")
@@ -40,7 +40,7 @@ namespace GameBox
                 player.name = playerName.Text;
                 Frame.Navigate(typeof(GameIntrus));
             }
-        }
+        }*/
         public void SecondGame(object sender, RoutedEventArgs e)
         {
             if (playerName.Text != "")
